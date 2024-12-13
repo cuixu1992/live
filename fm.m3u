@@ -51,7 +51,7 @@ https://radio.0472.org/?id=544
 https://radio.0472.org/?id=832
 #EXTINF:-1 radio="true" tvg-name="长春经济广播" tvg-logo="https://radio.0472.org/?id=831&logo" group-title="吉林",长春经济广播
 https://radio.0472.org/?id=831
-#EXTINF:-1 radio="true" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视伴音",CCTV-1 综合
+#EXTINF:-1 radio="true" tvg-name="CCTV-1 综合" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视伴音",CCTV-1 综合
 https://piccpndali.v.myalicdn.com/audio/cctv1_2.m3u8
 #EXTINF:-1 radio="true" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视伴音",CCTV2
 https://piccpndali.v.myalicdn.com/audio/cctv2_2.m3u8

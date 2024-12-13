@@ -31,6 +31,8 @@ https://radio.0472.org/?id=654
 https://radio.0472.org/?id=692
 #EXTINF:-1 radio="true" tvg-name="长春UFM880" tvg-logo="https://radio.0472.org/?id=1274&logo" group-title="吉林",长春UFM880
 https://radio.0472.org/?id=1274
+#EXTINF:-1 radio="true" tvg-name="长春交通之声" tvg-logo="https://radio.0472.org/?id=832&logo" group-title="吉林",长春交通之声
+https://radio.0472.org/?id=832
 #EXTINF:-1 radio="true" tvg-name="中国交通广播（吉林）" tvg-logo="https://radio.0472.org/?id=754&logo" group-title="吉林",中国交通广播（吉林）
 https://radio.0472.org/?id=754
 #EXTINF:-1 radio="true" tvg-name="吉林交通广播" tvg-logo="https://radio.0472.org/?id=546&logo" group-title="吉林",吉林交通广播
@@ -39,16 +41,14 @@ https://radio.0472.org/?id=546
 https://radio.0472.org/?id=829
 #EXTINF:-1 radio="true" tvg-name="吉林经济广播" tvg-logo="https://radio.0472.org/?id=545&logo" group-title="吉林",吉林经济广播
 https://radio.0472.org/?id=545
-#EXTINF:-1 radio="true" tvg-name="吉林乡村广播" tvg-logo="https://radio.0472.org/?id=547&logo" group-title="吉林",吉林乡村广播
-https://radio.0472.org/?id=547
 #EXTINF:-1 radio="true" tvg-name="吉林旅游广播" tvg-logo="https://radio.0472.org/?id=1271&logo" group-title="吉林",吉林旅游广播
 https://radio.0472.org/?id=1271
 #EXTINF:-1 radio="true" tvg-name="吉林教育广播" tvg-logo="https://radio.0472.org/?id=1272&logo" group-title="吉林",吉林教育广播
 https://radio.0472.org/?id=1272
+#EXTINF:-1 radio="true" tvg-name="吉林乡村广播" tvg-logo="https://radio.0472.org/?id=547&logo" group-title="吉林",吉林乡村广播
+https://radio.0472.org/?id=547
 #EXTINF:-1 radio="true" tvg-name="吉林新闻综合广播" tvg-logo="https://radio.0472.org/?id=544&logo" group-title="吉林",吉林新闻综合广播
 https://radio.0472.org/?id=544
-#EXTINF:-1 radio="true" tvg-name="长春交通之声" tvg-logo="https://radio.0472.org/?id=832&logo" group-title="吉林",长春交通之声
-https://radio.0472.org/?id=832
 #EXTINF:-1 radio="true" tvg-name="长春经济广播" tvg-logo="https://radio.0472.org/?id=831&logo" group-title="吉林",长春经济广播
 https://radio.0472.org/?id=831
 #EXTINF:-1 radio="true" tvg-name="CCTV-1 综合" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视伴音",CCTV-1 综合

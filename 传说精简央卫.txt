@@ -1,308 +1,23 @@
-央视卫视,#genre#
-CCTV-1,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8668&tk=7877e7cc41c7
-CCTV-2,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1610&tk=7877e7cc41c7
-CCTV-3,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0235&tk=7877e7cc41c7
-CCTV-4,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0938&tk=7877e7cc41c7
-CCTV-5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4222&tk=7877e7cc41c7
-CCTV-5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3327&tk=7877e7cc41c7
-CCTV-6,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2271&tk=7877e7cc41c7
-CCTV-7,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7018&tk=7877e7cc41c7
-CCTV-8,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5722&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7226&tk=7877e7cc41c7
-CCTV-10,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7047&tk=7877e7cc41c7
-CCTV-11,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8360&tk=7877e7cc41c7
-CCTV-12,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5197&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2365&tk=7877e7cc41c7
-CCTV-14,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6570&tk=7877e7cc41c7
-CCTV-15,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4500&tk=7877e7cc41c7
-CCTV-16,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6941&tk=7877e7cc41c7
-CCTV-17,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5548&tk=7877e7cc41c7
-东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0373&tk=7877e7cc41c7
-重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1615&tk=7877e7cc41c7
-吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8014&tk=7877e7cc41c7
-辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2625&tk=7877e7cc41c7
-内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9135&tk=7877e7cc41c7
-宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9431&tk=7877e7cc41c7
-甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8361&tk=7877e7cc41c7
-青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9219&tk=7877e7cc41c7
-陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4963&tk=7877e7cc41c7
-山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3958&tk=7877e7cc41c7
-河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4280&tk=7877e7cc41c7
-湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3081&tk=7877e7cc41c7
-湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2266&tk=7877e7cc41c7
-江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3380&tk=7877e7cc41c7
-江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3434&tk=7877e7cc41c7
-东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0816&tk=7877e7cc41c7
-广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2422&tk=7877e7cc41c7
-广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8306&tk=7877e7cc41c7
-云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3652&tk=7877e7cc41c7
-贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7707&tk=7877e7cc41c7
-新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8448&tk=7877e7cc41c7
-西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4567&tk=7877e7cc41c7
-海南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7165&tk=7877e7cc41c7
-浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7823&tk=7877e7cc41c7
-北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7927&tk=7877e7cc41c7
-江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8339&tk=7877e7cc41c7
-浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6994&tk=7877e7cc41c7
-黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4230&tk=7877e7cc41c7
-广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8391&tk=7877e7cc41c7
-CCTV-1,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5985&tk=7877e7cc41c7
-CCTV-2,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7014&tk=7877e7cc41c7
-CCTV-3,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9728&tk=7877e7cc41c7
-CCTV-4,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2383&tk=7877e7cc41c7
-CCTV-5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6904&tk=7877e7cc41c7
-CCTV-5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8363&tk=7877e7cc41c7
-CCTV-6,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7052&tk=7877e7cc41c7
-CCTV-7,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4713&tk=7877e7cc41c7
-CCTV-8,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8273&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0596&tk=7877e7cc41c7
-CCTV-10,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9581&tk=7877e7cc41c7
-CCTV-11,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9384&tk=7877e7cc41c7
-CCTV-12,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3643&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6085&tk=7877e7cc41c7
-CCTV-14,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8542&tk=7877e7cc41c7
-CCTV-15,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3002&tk=7877e7cc41c7
-CCTV-16,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0887&tk=7877e7cc41c7
-CCTV-17,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1456&tk=7877e7cc41c7
-北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3071&tk=7877e7cc41c7
-安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6061&tk=7877e7cc41c7
-东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4798&tk=7877e7cc41c7
-东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7900&tk=7877e7cc41c7
-甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8536&tk=7877e7cc41c7
-广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9077&tk=7877e7cc41c7
-广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7055&tk=7877e7cc41c7
-贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4112&tk=7877e7cc41c7
-海南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4210&tk=7877e7cc41c7
-河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7994&tk=7877e7cc41c7
-河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9024&tk=7877e7cc41c7
-黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8010&tk=7877e7cc41c7
-湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4663&tk=7877e7cc41c7
-湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3375&tk=7877e7cc41c7
-吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6746&tk=7877e7cc41c7
-江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6179&tk=7877e7cc41c7
-江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6185&tk=7877e7cc41c7
-辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2678&tk=7877e7cc41c7
-内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1130&tk=7877e7cc41c7
-宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5594&tk=7877e7cc41c7
-青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0352&tk=7877e7cc41c7
-山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8283&tk=7877e7cc41c7
-山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0967&tk=7877e7cc41c7
-陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9143&tk=7877e7cc41c7
-四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8648&tk=7877e7cc41c7
-天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6293&tk=7877e7cc41c7
-西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6502&tk=7877e7cc41c7
-新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2621&tk=7877e7cc41c7
-云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2747&tk=7877e7cc41c7
-浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3694&tk=7877e7cc41c7
-重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9735&tk=7877e7cc41c7
-CCTV-1,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5510&tk=7877e7cc41c7
-CCTV-2,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4711&tk=7877e7cc41c7
-CCTV-3,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8921&tk=7877e7cc41c7
-CCTV-4,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0515&tk=7877e7cc41c7
-CCTV-5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9360&tk=7877e7cc41c7
-CCTV-5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7569&tk=7877e7cc41c7
-CCTV-6,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2317&tk=7877e7cc41c7
-CCTV-7,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6046&tk=7877e7cc41c7
-CCTV-8,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1794&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8869&tk=7877e7cc41c7
-CCTV-10,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4131&tk=7877e7cc41c7
-CCTV-11,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6981&tk=7877e7cc41c7
-CCTV-12,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3980&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9534&tk=7877e7cc41c7
-CCTV-14,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9709&tk=7877e7cc41c7
-CCTV-15,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4159&tk=7877e7cc41c7
-河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0813&tk=7877e7cc41c7
-湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1891&tk=7877e7cc41c7
-浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7856&tk=7877e7cc41c7
-江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2602&tk=7877e7cc41c7
-北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1312&tk=7877e7cc41c7
-东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2562&tk=7877e7cc41c7
-天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6082&tk=7877e7cc41c7
-深圳卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5120&tk=7877e7cc41c7
-山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9033&tk=7877e7cc41c7
-广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0937&tk=7877e7cc41c7
-黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4246&tk=7877e7cc41c7
-辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3559&tk=7877e7cc41c7
-安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3558&tk=7877e7cc41c7
-湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5886&tk=7877e7cc41c7
-四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6164&tk=7877e7cc41c7
-云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0625&tk=7877e7cc41c7
-河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9690&tk=7877e7cc41c7
-江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2301&tk=7877e7cc41c7
-贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0023&tk=7877e7cc41c7
-重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8369&tk=7877e7cc41c7
-东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2684&tk=7877e7cc41c7
-广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6707&tk=7877e7cc41c7
-吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6284&tk=7877e7cc41c7
-陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1799&tk=7877e7cc41c7
-山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8656&tk=7877e7cc41c7
-内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1958&tk=7877e7cc41c7
-青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3896&tk=7877e7cc41c7
-宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4326&tk=7877e7cc41c7
-西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2149&tk=7877e7cc41c7
-新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0975&tk=7877e7cc41c7
-甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4349&tk=7877e7cc41c7
-CCTV-1,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2912&tk=7877e7cc41c7
-CCTV-2,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1134&tk=7877e7cc41c7
-CCTV-3,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8978&tk=7877e7cc41c7
-CCTV-4,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9840&tk=7877e7cc41c7
-CCTV-5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6631&tk=7877e7cc41c7
-CCTV-5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4133&tk=7877e7cc41c7
-CCTV-6,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0628&tk=7877e7cc41c7
-CCTV-7,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7409&tk=7877e7cc41c7
-CCTV-8,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4886&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2437&tk=7877e7cc41c7
-CCTV-10,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7512&tk=7877e7cc41c7
-CCTV-11,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0247&tk=7877e7cc41c7
-CCTV-12,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8602&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9272&tk=7877e7cc41c7
-CCTV-14,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6596&tk=7877e7cc41c7
-CCTV-15,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0899&tk=7877e7cc41c7
-CCTV-16,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8093&tk=7877e7cc41c7
-河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7297&tk=7877e7cc41c7
-湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7207&tk=7877e7cc41c7
-江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9276&tk=7877e7cc41c7
-北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2880&tk=7877e7cc41c7
-天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5503&tk=7877e7cc41c7
-深圳卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1086&tk=7877e7cc41c7
-山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1290&tk=7877e7cc41c7
-广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9523&tk=7877e7cc41c7
-黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7008&tk=7877e7cc41c7
-辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8245&tk=7877e7cc41c7
-安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9527&tk=7877e7cc41c7
-湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5789&tk=7877e7cc41c7
-四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0610&tk=7877e7cc41c7
-东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7583&tk=7877e7cc41c7
-重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0342&tk=7877e7cc41c7
-东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6363&tk=7877e7cc41c7
-广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1453&tk=7877e7cc41c7
-吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8645&tk=7877e7cc41c7
-陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0483&tk=7877e7cc41c7
-山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2659&tk=7877e7cc41c7
-浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5382&tk=7877e7cc41c7
-内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3127&tk=7877e7cc41c7
-青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0934&tk=7877e7cc41c7
-宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0909&tk=7877e7cc41c7
-西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6721&tk=7877e7cc41c7
-新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2240&tk=7877e7cc41c7
-甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1440&tk=7877e7cc41c7
-云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1642&tk=7877e7cc41c7
-河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1082&tk=7877e7cc41c7
-贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1396&tk=7877e7cc41c7
-
-备用央卫,#genre#
-CCTV-1综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9825&tk=7877e7cc41c7
-CCTV-2财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0674&tk=7877e7cc41c7
-CCTV-3综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0763&tk=7877e7cc41c7
-CCTV-4中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9750&tk=7877e7cc41c7
-CCTV-5体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6671&tk=7877e7cc41c7
-CCTV-5+体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0404&tk=7877e7cc41c7
-CCTV-6电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9590&tk=7877e7cc41c7
-CCTV-7国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5067&tk=7877e7cc41c7
-CCTV-8电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0361&tk=7877e7cc41c7
-CCTV-9纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6706&tk=7877e7cc41c7
-CCTV-10科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0208&tk=7877e7cc41c7
-CCTV-11戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2543&tk=7877e7cc41c7
-CCTV-12社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0342&tk=7877e7cc41c7
-CCTV-13新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4722&tk=7877e7cc41c7
-CCTV-14少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6680&tk=7877e7cc41c7
-CCTV-15音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1657&tk=7877e7cc41c7
-CCTV-16奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0598&tk=7877e7cc41c7
-CCTV-17农业农村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4242&tk=7877e7cc41c7
-江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6494&tk=7877e7cc41c7
-浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4473&tk=7877e7cc41c7
-湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5985&tk=7877e7cc41c7
-北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1123&tk=7877e7cc41c7
-东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7713&tk=7877e7cc41c7
-山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6422&tk=7877e7cc41c7
-天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2914&tk=7877e7cc41c7
-四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3264&tk=7877e7cc41c7
-安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3576&tk=7877e7cc41c7
-江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5484&tk=7877e7cc41c7
-东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8095&tk=7877e7cc41c7
-河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0197&tk=7877e7cc41c7
-重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6177&tk=7877e7cc41c7
-深圳卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1502&tk=7877e7cc41c7
-湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9237&tk=7877e7cc41c7
-贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5268&tk=7877e7cc41c7
-云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8258&tk=7877e7cc41c7
-广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7773&tk=7877e7cc41c7
-广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8580&tk=7877e7cc41c7
-辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3749&tk=7877e7cc41c7
-黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6501&tk=7877e7cc41c7
-
-移动央卫,#genre#
-CCTV-1,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8515&tk=7877e7cc41c7
-CCTV-2,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0580&tk=7877e7cc41c7
-CCTV-3,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1009&tk=7877e7cc41c7
-CCTV-4,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1705&tk=7877e7cc41c7
-CCTV-5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0116&tk=7877e7cc41c7
-CCTV-5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3762&tk=7877e7cc41c7
-CCTV-6,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0306&tk=7877e7cc41c7
-CCTV-7,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7642&tk=7877e7cc41c7
-CCTV-8,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6696&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1261&tk=7877e7cc41c7
-CCTV-10,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3221&tk=7877e7cc41c7
-CCTV-11,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4539&tk=7877e7cc41c7
-CCTV-12,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3003&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8859&tk=7877e7cc41c7
-CCTV-14,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3371&tk=7877e7cc41c7
-CCTV-15,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1887&tk=7877e7cc41c7
-CCTV-16,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4862&tk=7877e7cc41c7
-CCTV-17,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3385&tk=7877e7cc41c7
-安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4166&tk=7877e7cc41c7
-北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7501&tk=7877e7cc41c7
-兵团卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0897&tk=7877e7cc41c7
-东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9793&tk=7877e7cc41c7
-东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2552&tk=7877e7cc41c7
-甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9386&tk=7877e7cc41c7
-广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2640&tk=7877e7cc41c7
-广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2217&tk=7877e7cc41c7
-贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0312&tk=7877e7cc41c7
-海南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0303&tk=7877e7cc41c7
-河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2541&tk=7877e7cc41c7
-河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0070&tk=7877e7cc41c7
-黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6517&tk=7877e7cc41c7
-湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2166&tk=7877e7cc41c7
-湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2112&tk=7877e7cc41c7
-吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1198&tk=7877e7cc41c7
-江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4083&tk=7877e7cc41c7
-江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7802&tk=7877e7cc41c7
-辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9549&tk=7877e7cc41c7
-内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0814&tk=7877e7cc41c7
-宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1866&tk=7877e7cc41c7
-青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8552&tk=7877e7cc41c7
-山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0056&tk=7877e7cc41c7
-山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9237&tk=7877e7cc41c7
-陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1742&tk=7877e7cc41c7
-四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8096&tk=7877e7cc41c7
-天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5542&tk=7877e7cc41c7
-西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3933&tk=7877e7cc41c7
-新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9425&tk=7877e7cc41c7
-云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6767&tk=7877e7cc41c7
-浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0421&tk=7877e7cc41c7
-重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1917&tk=7877e7cc41c7
-
 央卫IPV6-1,#genre#
-CCTV-1,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3995&tk=7877e7cc41c7
-CCTV-2,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9915&tk=7877e7cc41c7
-CCTV-3,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9432&tk=7877e7cc41c7
-CCTV-4,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6468&tk=7877e7cc41c7
-CCTV-5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2155&tk=7877e7cc41c7
-CCTV-5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0251&tk=7877e7cc41c7
-CCTV-6,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9293&tk=7877e7cc41c7
-CCTV-7,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9924&tk=7877e7cc41c7
-CCTV-8,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3845&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7747&tk=7877e7cc41c7
-CCTV-10,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0193&tk=7877e7cc41c7
-CCTV-11,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6106&tk=7877e7cc41c7
-CCTV-12,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5913&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9126&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4987&tk=7877e7cc41c7
-CCTV-14,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4859&tk=7877e7cc41c7
-CCTV-15,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0676&tk=7877e7cc41c7
-CCTV-16,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5838&tk=7877e7cc41c7
-CCTV-17,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8183&tk=7877e7cc41c7
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3995&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9915&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9432&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6468&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2155&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0251&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9293&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9924&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3845&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7747&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0193&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6106&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5913&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9126&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4987&tk=7877e7cc41c7
+CCTV-14 少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4859&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0676&tk=7877e7cc41c7
+CCTV-16 奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5838&tk=7877e7cc41c7
+CCTV-17 农业农村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8183&tk=7877e7cc41c7
 安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9732&tk=7877e7cc41c7
 北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5698&tk=7877e7cc41c7
 东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6214&tk=7877e7cc41c7
@@ -335,24 +50,24 @@ CCTV-17,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8183&tk=7877e7cc41c7
 重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8904&tk=7877e7cc41c7
 
 央卫IPV6-2,#genre#
-CCTV-1,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1619&tk=7877e7cc41c7
-CCTV-2,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1364&tk=7877e7cc41c7
-CCTV-3,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9805&tk=7877e7cc41c7
-CCTV-4,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3467&tk=7877e7cc41c7
-CCTV-5,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1737&tk=7877e7cc41c7
-CCTV-5+,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1947&tk=7877e7cc41c7
-CCTV-6,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8832&tk=7877e7cc41c7
-CCTV-7,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3108&tk=7877e7cc41c7
-CCTV-8,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7007&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0430&tk=7877e7cc41c7
-CCTV-9,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4435&tk=7877e7cc41c7
-CCTV-10,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4405&tk=7877e7cc41c7
-CCTV-11,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8669&tk=7877e7cc41c7
-CCTV-12,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5615&tk=7877e7cc41c7
-CCTV-13,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8445&tk=7877e7cc41c7
-CCTV-15,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3282&tk=7877e7cc41c7
-CCTV-16,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4824&tk=7877e7cc41c7
-CCTV-17,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7648&tk=7877e7cc41c7
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1619&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1364&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9805&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3467&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1737&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1947&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8832&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3108&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7007&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0430&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4435&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4405&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8669&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5615&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8445&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3282&tk=7877e7cc41c7
+CCTV-16 奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4824&tk=7877e7cc41c7
+CCTV-17 农业农村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7648&tk=7877e7cc41c7
 江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7533&tk=7877e7cc41c7
 江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8643&tk=7877e7cc41c7
 北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0254&tk=7877e7cc41c7
@@ -375,6 +90,293 @@ CCTV-17,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7648&tk=7877e7cc41c7
 青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3930&tk=7877e7cc41c7
 四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2204&tk=7877e7cc41c7
 云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8779&tk=7877e7cc41c7
+
+央视卫视,#genre#
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8668&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1610&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0235&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0938&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4222&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3327&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2271&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7018&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5722&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7226&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7047&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8360&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5197&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2365&tk=7877e7cc41c7
+CCTV-14 少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6570&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4500&tk=7877e7cc41c7
+CCTV-16 奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6941&tk=7877e7cc41c7
+CCTV-17 农业农村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5548&tk=7877e7cc41c7
+东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0373&tk=7877e7cc41c7
+重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1615&tk=7877e7cc41c7
+吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8014&tk=7877e7cc41c7
+辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2625&tk=7877e7cc41c7
+内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9135&tk=7877e7cc41c7
+宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9431&tk=7877e7cc41c7
+甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8361&tk=7877e7cc41c7
+青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9219&tk=7877e7cc41c7
+陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4963&tk=7877e7cc41c7
+山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3958&tk=7877e7cc41c7
+河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4280&tk=7877e7cc41c7
+湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3081&tk=7877e7cc41c7
+湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2266&tk=7877e7cc41c7
+江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3380&tk=7877e7cc41c7
+江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3434&tk=7877e7cc41c7
+东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0816&tk=7877e7cc41c7
+广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2422&tk=7877e7cc41c7
+广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8306&tk=7877e7cc41c7
+云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3652&tk=7877e7cc41c7
+贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7707&tk=7877e7cc41c7
+新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8448&tk=7877e7cc41c7
+西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4567&tk=7877e7cc41c7
+海南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7165&tk=7877e7cc41c7
+浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7823&tk=7877e7cc41c7
+北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7927&tk=7877e7cc41c7
+江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8339&tk=7877e7cc41c7
+浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6994&tk=7877e7cc41c7
+黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4230&tk=7877e7cc41c7
+广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8391&tk=7877e7cc41c7
+
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5985&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7014&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9728&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2383&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6904&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8363&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7052&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4713&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8273&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0596&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9581&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9384&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3643&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6085&tk=7877e7cc41c7
+CCTV-14 少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8542&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3002&tk=7877e7cc41c7
+CCTV-16 奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0887&tk=7877e7cc41c7
+CCTV-17 农业农村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1456&tk=7877e7cc41c7
+北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3071&tk=7877e7cc41c7
+安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6061&tk=7877e7cc41c7
+东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4798&tk=7877e7cc41c7
+东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7900&tk=7877e7cc41c7
+甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8536&tk=7877e7cc41c7
+广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9077&tk=7877e7cc41c7
+广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7055&tk=7877e7cc41c7
+贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4112&tk=7877e7cc41c7
+海南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4210&tk=7877e7cc41c7
+河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7994&tk=7877e7cc41c7
+河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9024&tk=7877e7cc41c7
+黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8010&tk=7877e7cc41c7
+湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4663&tk=7877e7cc41c7
+湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3375&tk=7877e7cc41c7
+吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6746&tk=7877e7cc41c7
+江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6179&tk=7877e7cc41c7
+江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6185&tk=7877e7cc41c7
+辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2678&tk=7877e7cc41c7
+内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1130&tk=7877e7cc41c7
+宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5594&tk=7877e7cc41c7
+青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0352&tk=7877e7cc41c7
+山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8283&tk=7877e7cc41c7
+山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0967&tk=7877e7cc41c7
+陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9143&tk=7877e7cc41c7
+四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8648&tk=7877e7cc41c7
+天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6293&tk=7877e7cc41c7
+西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6502&tk=7877e7cc41c7
+新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2621&tk=7877e7cc41c7
+云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2747&tk=7877e7cc41c7
+浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3694&tk=7877e7cc41c7
+重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9735&tk=7877e7cc41c7
+
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5510&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4711&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8921&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0515&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9360&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7569&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2317&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6046&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1794&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8869&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4131&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6981&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3980&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9534&tk=7877e7cc41c7
+CCTV-14 少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9709&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4159&tk=7877e7cc41c7
+河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0813&tk=7877e7cc41c7
+湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1891&tk=7877e7cc41c7
+浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7856&tk=7877e7cc41c7
+江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2602&tk=7877e7cc41c7
+北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1312&tk=7877e7cc41c7
+东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2562&tk=7877e7cc41c7
+天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6082&tk=7877e7cc41c7
+深圳卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5120&tk=7877e7cc41c7
+山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9033&tk=7877e7cc41c7
+广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0937&tk=7877e7cc41c7
+黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4246&tk=7877e7cc41c7
+辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3559&tk=7877e7cc41c7
+安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3558&tk=7877e7cc41c7
+湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5886&tk=7877e7cc41c7
+四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6164&tk=7877e7cc41c7
+云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0625&tk=7877e7cc41c7
+河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9690&tk=7877e7cc41c7
+江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2301&tk=7877e7cc41c7
+贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0023&tk=7877e7cc41c7
+重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8369&tk=7877e7cc41c7
+东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2684&tk=7877e7cc41c7
+广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6707&tk=7877e7cc41c7
+吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6284&tk=7877e7cc41c7
+陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1799&tk=7877e7cc41c7
+山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8656&tk=7877e7cc41c7
+内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1958&tk=7877e7cc41c7
+青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3896&tk=7877e7cc41c7
+宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4326&tk=7877e7cc41c7
+西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2149&tk=7877e7cc41c7
+新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0975&tk=7877e7cc41c7
+甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4349&tk=7877e7cc41c7
+
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2912&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1134&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8978&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9840&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6631&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4133&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0628&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7409&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4886&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2437&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7512&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0247&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8602&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9272&tk=7877e7cc41c7
+CCTV-14 少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6596&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0899&tk=7877e7cc41c7
+CCTV-16 奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8093&tk=7877e7cc41c7
+河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7297&tk=7877e7cc41c7
+湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7207&tk=7877e7cc41c7
+江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9276&tk=7877e7cc41c7
+北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2880&tk=7877e7cc41c7
+天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5503&tk=7877e7cc41c7
+深圳卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1086&tk=7877e7cc41c7
+山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1290&tk=7877e7cc41c7
+广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9523&tk=7877e7cc41c7
+黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7008&tk=7877e7cc41c7
+辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8245&tk=7877e7cc41c7
+安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9527&tk=7877e7cc41c7
+湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5789&tk=7877e7cc41c7
+四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0610&tk=7877e7cc41c7
+东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7583&tk=7877e7cc41c7
+重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0342&tk=7877e7cc41c7
+东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6363&tk=7877e7cc41c7
+广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1453&tk=7877e7cc41c7
+吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8645&tk=7877e7cc41c7
+陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0483&tk=7877e7cc41c7
+山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2659&tk=7877e7cc41c7
+浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5382&tk=7877e7cc41c7
+内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3127&tk=7877e7cc41c7
+青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0934&tk=7877e7cc41c7
+宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0909&tk=7877e7cc41c7
+西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6721&tk=7877e7cc41c7
+新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2240&tk=7877e7cc41c7
+甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1440&tk=7877e7cc41c7
+云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1642&tk=7877e7cc41c7
+河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1082&tk=7877e7cc41c7
+贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1396&tk=7877e7cc41c7
+
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9825&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0674&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0763&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9750&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6671&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0404&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9590&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5067&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0361&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6706&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0208&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2543&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0342&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4722&tk=7877e7cc41c7
+CCTV-14 少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6680&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1657&tk=7877e7cc41c7
+CCTV-16 奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0598&tk=7877e7cc41c7
+CCTV-17 农业农村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4242&tk=7877e7cc41c7
+江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6494&tk=7877e7cc41c7
+浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4473&tk=7877e7cc41c7
+湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5985&tk=7877e7cc41c7
+北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1123&tk=7877e7cc41c7
+东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7713&tk=7877e7cc41c7
+山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6422&tk=7877e7cc41c7
+天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2914&tk=7877e7cc41c7
+四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3264&tk=7877e7cc41c7
+安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3576&tk=7877e7cc41c7
+江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5484&tk=7877e7cc41c7
+东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8095&tk=7877e7cc41c7
+河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0197&tk=7877e7cc41c7
+重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6177&tk=7877e7cc41c7
+深圳卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1502&tk=7877e7cc41c7
+湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9237&tk=7877e7cc41c7
+贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5268&tk=7877e7cc41c7
+云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8258&tk=7877e7cc41c7
+广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7773&tk=7877e7cc41c7
+广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8580&tk=7877e7cc41c7
+辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3749&tk=7877e7cc41c7
+黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6501&tk=7877e7cc41c7
+
+移动央卫,#genre#
+CCTV-1 综合,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8515&tk=7877e7cc41c7
+CCTV-2 财经,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0580&tk=7877e7cc41c7
+CCTV-3 综艺,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1009&tk=7877e7cc41c7
+CCTV-4 中文国际,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1705&tk=7877e7cc41c7
+CCTV-5 体育,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0116&tk=7877e7cc41c7
+CCTV-5+ 体育赛事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3762&tk=7877e7cc41c7
+CCTV-6 电影,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0306&tk=7877e7cc41c7
+CCTV-7 国防军事,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7642&tk=7877e7cc41c7
+CCTV-8 电视剧,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6696&tk=7877e7cc41c7
+CCTV-9 纪录,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1261&tk=7877e7cc41c7
+CCTV-10 科教,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3221&tk=7877e7cc41c7
+CCTV-11 戏曲,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4539&tk=7877e7cc41c7
+CCTV-12 社会与法,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3003&tk=7877e7cc41c7
+CCTV-13 新闻,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8859&tk=7877e7cc41c7
+CCTV-14 少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3371&tk=7877e7cc41c7
+CCTV-15 音乐,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1887&tk=7877e7cc41c7
+CCTV-16 奥林匹克,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4862&tk=7877e7cc41c7
+CCTV-17 农业农村,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3385&tk=7877e7cc41c7
+安徽卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4166&tk=7877e7cc41c7
+北京卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7501&tk=7877e7cc41c7
+兵团卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0897&tk=7877e7cc41c7
+东方卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9793&tk=7877e7cc41c7
+东南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2552&tk=7877e7cc41c7
+甘肃卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9386&tk=7877e7cc41c7
+广东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2640&tk=7877e7cc41c7
+广西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2217&tk=7877e7cc41c7
+贵州卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0312&tk=7877e7cc41c7
+海南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0303&tk=7877e7cc41c7
+河北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2541&tk=7877e7cc41c7
+河南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0070&tk=7877e7cc41c7
+黑龙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6517&tk=7877e7cc41c7
+湖北卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2166&tk=7877e7cc41c7
+湖南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=2112&tk=7877e7cc41c7
+吉林卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1198&tk=7877e7cc41c7
+江苏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=4083&tk=7877e7cc41c7
+江西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7802&tk=7877e7cc41c7
+辽宁卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9549&tk=7877e7cc41c7
+内蒙古卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0814&tk=7877e7cc41c7
+宁夏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1866&tk=7877e7cc41c7
+青海卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8552&tk=7877e7cc41c7
+山东卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0056&tk=7877e7cc41c7
+山西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9237&tk=7877e7cc41c7
+陕西卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1742&tk=7877e7cc41c7
+四川卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=8096&tk=7877e7cc41c7
+天津卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=5542&tk=7877e7cc41c7
+西藏卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=3933&tk=7877e7cc41c7
+新疆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=9425&tk=7877e7cc41c7
+云南卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=6767&tk=7877e7cc41c7
+浙江卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=0421&tk=7877e7cc41c7
+重庆卫视,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=1917&tk=7877e7cc41c7
 
 少儿频道,#genre#
 黑龙江少儿,http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7643&tk=7877e7cc41c7

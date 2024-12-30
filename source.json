@@ -11,4 +11,14 @@
         { "url": "https://100km.top/0", "name": "Ray明" },
         { "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer", "name": "少儿" }
     ]
+    "lives": [
+        {"name":"央视卫视",
+        "type":0,
+        "url":"https://gitpages.cuixu1992.xyz/tv.m3u",
+        "playerType":0,
+        "ua":"okhttp/3.15",
+        "epg":"https://diyp10.112114.xyz/",
+        "logo":"https://epg.112114.xyz/logo/{name}.png"
+        }
+    ]
 }

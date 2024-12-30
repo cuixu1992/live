@@ -1,14 +1,21 @@
 {
     "urls": [
         { "url": "http://www.饭太硬.com/tv", "name": "饭太硬" },
-        { "url": "http://肥猫.com/", "name": "肥猫" },
+        { "url": "https://xn--tkh-mf3g9f.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌tkh", "name": "欧歌" },
         { "url": "http://我不是.摸鱼儿.com", "name": "摸鱼" },
+        { "url": "http://肥猫.com/", "name": "肥猫" },
         { "url": "http://ok321.top/ok", "name": "OK" },
         { "url": "http://tvbox.王二小放牛娃.top", "name": "王小二" },
-        { "url": "https://xn--tkh-mf3g9f.v.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌tkh", "name": "欧歌" },
+        { "url": "https://mpanso.me/DEMO.json", "name": "小米" },
+        { "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "巧计" },
+        { "url": "https://d.kstore.dev/download/7213/吃猫的鱼", "name": "吃猫的鱼" },
+        { "url": "https://tv.xn--yhqu5zs87a.top", "name": "菜妮丝" },
+        { "url": "https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json", "name": "南风" },
+        { "url": "http://bp.tvbox.cam/", "name": "小白" },
         { "url": "http://64.112.42.49:6688/https://raw.githubusercontent.com/guot55/yg/main/pg/jsm.json", "name": "宝盒" },
         { "url": "https://gitee.com/yiwu369/6758/raw/master/1.json", "name": "青龙" },
         { "url": "https://100km.top/0", "name": "Ray明" },
+        { "url": "https://100km.top/0", "name": "纯一骚零" },
         { "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer", "name": "少儿" }
     ]
 }

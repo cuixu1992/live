@@ -1,4 +1,9 @@
 {
+    "storeHouse": [
+    {
+      "sourceName": "cx自用优选仓",
+    }
+  ]
     "urls": [
         { "url": "http://www.饭太硬.com/tv", "name": "饭太硬" },
         { "url": "http://肥猫.com/", "name": "肥猫" },

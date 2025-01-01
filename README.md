@@ -1,5 +1,5 @@
 # https://gitpages.cuixu1992.xyz/
-# 新手入门教程，利用github pages创建自己的直播源与点播源订阅链接
+# 新手入门，利用github pages创建自己的直播源与点播源订阅链接
 
 本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享（最后的声明也是copy的~），如有侵权，请联系删除！（写完发现在pages浏览效果不佳，不想研究~~可以点击左边的View the Project on GitHub回到github观看）
 

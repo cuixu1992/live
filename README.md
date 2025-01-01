@@ -20,7 +20,7 @@ vbskycn ：https://github.com/vbskycn/iptv
 最后一个仓库vbskycn为自动更新直播源，我好奇他是怎么自动更新的，发现了下面要讲的大佬，Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。（下载位置如下图，我怕有人找不到~~）软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通ipv6可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340，很详细哈。
 ![1](https://github.com/user-attachments/assets/dc7a3edc-9110-49b5-bba0-fe05f8fa6ad5)
 
-m3u文件与txt文件简单介绍，先是m3u，m3u内容丰富，但是不支持多源，主要用于aptv（苹果商店下载）、我的电视（mytv）等直播壳，我的电视（https://wmdz.com/tv.html ，最新版本2.2.7,找半天没找到github仓库,最后发现作者把github仓库关了，由于mytv原作者李宗英不再继续开发https://github.com/lizongying/my-tv ，我的电视是在原mytv基础上继续开发的https://github.com/yaoxieyoulei ，mytv原作者李宗英最近又继续开发了我的電視〇https://github.com/lizongying/my-tv-0?tab=readme-ov-file#%E6%88%91%E7%9A%84%E9%9B%BB%E8%A6%96%E3%80%87 ），
+m3u文件与txt文件简单介绍，先是m3u，m3u内容丰富，但是不支持多源，主要用于aptv（苹果商店下载）、我的电视（mytv）等直播壳。（我的电视下载链接https://wmdz.com/tv.html ，最新版本2.2.7,找半天没找到github仓库,最后发现作者把github仓库关了，由于mytv原作者李宗英不再继续开发https://github.com/lizongying/my-tv ，我的电视是在原mytv基础上继续开发的https://github.com/yaoxieyoulei ，mytv原作者李宗英最近又继续开发了我的电视·〇https://github.com/lizongying/my-tv-0?tab=readme-ov-file#%E6%88%91%E7%9A%84%E9%9B%BB%E8%A6%96%E3%80%87 ），
 ![2](https://github.com/user-attachments/assets/9026a76a-2707-4212-b294-96b92bd982d0)
 
 然后是txt，内容简单，但支持多源，对比较适合用于影视仓（wx搜派大星开发，推荐个下载地址，更新很快，https://wmdz.com/tvboxC1.html，个人感觉5.0.44相对稳定），

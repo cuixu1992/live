@@ -61,7 +61,7 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub Pages是国外网站，加载速度和稳定性都不是很可靠。我参考的教程https://blog.csdn.net/qq_39432978/article/details/141203664?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-2-141203664-blog-129872749.235^v43^pc_blog_bottom_relevance_base5&spm=1001.2101.3001.4242.2&utm_relevant_index=5，
 
-简单转述教程，先注册一个域名（我15买的一年期域名，购买网站https://www.godaddy.com/zh-sg ），然后注册cloudflare账号https://www.cloudflare.com/zh-cn/ ，之后按照cloudflare的提示一步一步操作，在域名注册商的DNS管理台添加cloudflare提示的域名服务器，添加成功后如图所示
+简单转述教程，先注册一个域名（我花15元买的一年期域名，购买网站https://www.godaddy.com/zh-sg ），然后注册cloudflare账号https://www.cloudflare.com/zh-cn/ ，之后按照cloudflare的提示一步一步操作，在域名注册商的DNS管理台添加cloudflare提示的域名服务器，添加成功后如图所示
 ![image](https://github.com/user-attachments/assets/bc74c9c8-9a8c-4545-a268-df7c4b8427bb)
 
 然后回到cloudflare中管理DNS，添加一条CNAME记录，将自定义域名指向 GitHub Pages 提供的地址（例如 cuixu1992.github.io）

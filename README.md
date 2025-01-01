@@ -33,15 +33,24 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 比如我用该软件按照自定义demo模板每个台选5个ipv6的源，然后放到github仓库内的tv_test.txt，用软件调用tv_test.txt测试，然后每个台选出1个好用的链接放入tv.m3u，这样就保证了最简洁的直播源获取。为什么我搞的这么麻烦呢，因为我维护这一个源同时给多个设备在用，比如我家里的电视和投影仪，父母老人的电视，朋友家的电视，尤其是老人对电子产品的适应能力还是差一些的，对他们来说最简单的就是最好的！！我的tv源里面只有18个央视和除去港澳台的31个省级卫视，而且把老人常看的地方卫视放到了前面！这样调用链接不变，电视台的源挂了只要我在仓库内更新源，其他人不需要任何操作就可以继续看电视
 
 .
+
 .
+
 .
 
 然后是点播源，开始只自己搞了直播源，因为是刚需嘛~~后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
 ![image](https://github.com/user-attachments/assets/51b3aeb2-7ef3-4e9e-94da-0d0973df4562)
 
-但是这样调用完仓库没有名字~开始想研究内容格式看看怎么加上仓库名字来着，后来发现无邪多仓的形式https://gitee.com/wxej/wxrj/raw/master/wx.json ，
-![image](https://github.com/user-attachments/assets/e9ce5d5e-8e22-47b3-952d-84678d3826ff)
+但是这样调用完仓库没有名字~开始想研究内容格式看看怎么加上仓库名字来着，后来发现无邪多仓的形式https://gitee.com/wxej/wxrj/raw/master/wx.json ，，，，，
+![image](https://github.com/user-attachments/assets/2ef54ea7-7429-494d-9cff-fa6d9c61b5b9)
 
+就模仿这种形式，新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/storehouse.json ，到这里基本功能就已经实现了。
+
+。
+
+。
+
+。
 
 为了追求稳定还可以使用CDN加速GitHub Pages的访问（嫌麻烦可以略过，到这里也能使用了）。我参考的教程https://blog.csdn.net/qq_39432978/article/details/141203664?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-2-141203664-blog-129872749.235^v43^pc_blog_bottom_relevance_base5&spm=1001.2101.3001.4242.2&utm_relevant_index=5，
 

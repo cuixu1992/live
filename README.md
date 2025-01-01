@@ -3,7 +3,7 @@
 
 因为我入门看的教程基本都在github，众所周知的原因，不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，选一个能用的先爬梯子https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界VPN，因为经常用，每次都直接买3年套餐，目前用了4年还没跑路，感觉价格还行），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，需要买个稳定的VPN用。
 
-然后是在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接访问自己仓库内的直播源或点播源文件。
+然后是在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接访问自己仓库内的直播源或点播源文件。
 
 直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。
 

@@ -38,7 +38,7 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 .
 
-然后是点播源，开始只自己搞了直播源，因为是刚需嘛~~后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
+然后是点播源，开始只自己搞了直播源，因为是刚需嘛~~后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有10个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
 ![image](https://github.com/user-attachments/assets/51b3aeb2-7ef3-4e9e-94da-0d0973df4562)
 
 但是这样调用完仓库没有名字~开始想研究内容格式看看怎么加上仓库名字来着，后来发现无邪多仓的形式https://gitee.com/wxej/wxrj/raw/master/wx.json ，，，，，

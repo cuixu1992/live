@@ -1,9 +1,11 @@
 # https://gitpages.cuixu1992.xyz/
-新手入门教程！本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享（最后的声明也是copy的~），如有侵权，请联系删除！（写完发现在pages浏览效果不佳，不想研究~~可以点击左边的View the Project on GitHub回到github观看）
+# 新手入门教程，利用github pages创建自己的直播源与点播源订阅链接
+
+本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享（最后的声明也是copy的~），如有侵权，请联系删除！（写完发现在pages浏览效果不佳，不想研究~~可以点击左边的View the Project on GitHub回到github观看）
 
 因为我入门看的教程基本都在github，众所周知不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，选一个能用的先爬梯子https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界VPN，因为经常用，每次都直接买3年套餐，目前用了4年还没跑路，感觉价格还行，新注册好像也是有赠送的），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，还是需要买个稳定的VPN用。
 
-然后是在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
+正式开始动工！在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
 
 直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv.m3u ，或https://cuixu1992.github.io/live/tv_test.txt
 
@@ -24,6 +26,10 @@ m3u文件与txt文件简单介绍，先是m3u，m3u内容丰富，但是不支�
 然后是txt，内容简单，但支持多源，对比较适合用于影视仓（wx搜派大星开发，推荐个下载地址，更新很快，https://wmdz.com/tvboxC1.html，个人感觉5.0.44相对稳定），
 ![3](https://github.com/user-attachments/assets/0f726aad-fb88-4ed0-aa49-6e3aea6eb68a)
 
+关于影视仓，tvbox，ok影视，猫影视等之间的关系，有张图交代的很清楚，来源https://github.com/ngo5/IPTV ，
+![image](https://github.com/user-attachments/assets/984161dc-a4f1-406a-8704-bf9b1f585f83)
+
+
 上面提到的GUI软件，软件运行一次会自动生成两个文件夹，
 ![4](https://github.com/user-attachments/assets/d6c024d5-f38d-40c1-8235-ca5a34c2db7c)
 
@@ -34,11 +40,11 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 .
 
-.
+下面的点播源适用于影视仓，下载链接在上文。
 
 .
 
-然后是点播源，开始只自己搞了直播源，因为是刚需嘛~~后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有10个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
+直播源搞定开始折腾点播源，开始只自己搞了直播源，因为是刚需嘛~~后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有10个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
 ![image](https://github.com/user-attachments/assets/51b3aeb2-7ef3-4e9e-94da-0d0973df4562)
 
 但是这样调用完仓库没有名字~开始想研究内容格式看看怎么加上仓库名字来着，后来发现无邪多仓的形式https://gitee.com/wxej/wxrj/raw/master/wx.json ，，，，，
@@ -48,7 +54,7 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 。
 
-（嫌麻烦后面可以略过，到这里也能使用了）
+嫌麻烦后面可以略过，到这里也能使用了。
 
 。
 

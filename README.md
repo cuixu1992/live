@@ -1,9 +1,9 @@
 # https://gitpages.cuixu1992.xyz/
-纯小白教程！本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享，如有侵权，请联系删除！（最后的声明也是copy的~），写完发现在pages浏览效果不佳，不想研究~可以点击左边的View the Project on GitHub回到github观看。
+新手入门教程！本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享，如有侵权，请联系删除！（最后的声明也是copy的~），写完发现在pages浏览效果不佳，不想研究~~可以点击左边的View the Project on GitHub回到github观看。
 
-因为我入门看的教程基本都在github，众所周知的原因，不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，选一个能用的先爬梯子https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界VPN，因为经常用，每次都直接买3年套餐，目前用了4年还没跑路，感觉价格还行），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，需要买个稳定的VPN用。
+因为我入门看的教程基本都在github，众所周知不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，选一个能用的先爬梯子https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界VPN，因为经常用，每次都直接买3年套餐，目前用了4年还没跑路，感觉价格还行，新注册好像也是有赠送的），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，还是需要买个稳定的VPN用。
 
-然后是在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接访问自己仓库内的直播源或点播源文件。
+然后是在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
 
 直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。
 
@@ -11,17 +11,17 @@
 
 zhumeng11：https://github.com/zhumeng11/IPTV 
 
-ngo5：https://github.com/ngo5/IPTV ，该仓库提供了很多链接
+ngo5：https://github.com/ngo5/IPTV ，该仓库提供了很多相关链接
 
 vbskycn ：https://github.com/vbskycn/iptv 
 
-最后一个仓库vbskycn为自动更新直播源，我好奇他是怎么自动更新的，发现了下面要讲的大佬，Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。（下载位置如下如，我怕有人找不到~~）软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340，很详细哈。
+最后一个仓库vbskycn为自动更新直播源，我好奇他是怎么自动更新的，发现了下面要讲的大佬，Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。（下载位置如下如，我怕有人找不到~~）软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通ipv6可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340，很详细哈。
 ![1](https://github.com/user-attachments/assets/dc7a3edc-9110-49b5-bba0-fe05f8fa6ad5)
 
-m3u文件与txt文件简单介绍，先是m3u，m3u内容丰富，但是不支持多源，主要用于aptv（苹果商店下载）、我的电视（mytv）等直播壳，我的电视（https://wmdz.com/tv.html ，最新版本2.2.7,找半天没找到github仓库,原来作者把github仓库关了，由于mytv作者不再继续开发https://github.com/lizongying/my-tv ，我的电视是在原来mytv基础上继续开发的，mytv原作者李宗英最近又继续开发了我的電視〇https://github.com/lizongying/my-tv-0?tab=readme-ov-file#%E6%88%91%E7%9A%84%E9%9B%BB%E8%A6%96%E3%80%87 ），
+m3u文件与txt文件简单介绍，先是m3u，m3u内容丰富，但是不支持多源，主要用于aptv（苹果商店下载）、我的电视（mytv）等直播壳，我的电视（https://wmdz.com/tv.html ，最新版本2.2.7,找半天没找到github仓库,最后发现作者把github仓库关了，由于mytv原作者李宗英不再继续开发https://github.com/lizongying/my-tv ，我的电视是在原mytv基础上继续开发的https://github.com/yaoxieyoulei ，mytv原作者李宗英最近又继续开发了我的電視〇https://github.com/lizongying/my-tv-0?tab=readme-ov-file#%E6%88%91%E7%9A%84%E9%9B%BB%E8%A6%96%E3%80%87 ），
 ![2](https://github.com/user-attachments/assets/9026a76a-2707-4212-b294-96b92bd982d0)
 
-然后是txt，内容简单，支持多源，对比较适合用于影视仓（wx搜派大星开发，推荐下载地址，更新很快，https://wmdz.com/tvboxC1.html，个人感觉5.0.44相对稳定）
+然后是txt，内容简单，但支持多源，对比较适合用于影视仓（wx搜派大星开发，推荐个下载地址，更新很快，https://wmdz.com/tvboxC1.html，个人感觉5.0.44相对稳定），
 ![3](https://github.com/user-attachments/assets/0f726aad-fb88-4ed0-aa49-6e3aea6eb68a)
 
 上面提到的GUI软件简单说一嘴，软件运行一次会自动生成两个文件夹，

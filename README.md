@@ -1,5 +1,5 @@
 # https://gitpages.cuixu1992.xyz/
-新手入门教程！本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享，如有侵权，请联系删除！（最后的声明也是copy的~），写完发现在pages浏览效果不佳，不想研究~~可以点击左边的View the Project on GitHub回到github观看。
+新手入门教程！本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享（最后的声明也是copy的~），如有侵权，请联系删除！，写完发现在pages浏览效果不佳，不想研究~~可以点击左边的View the Project on GitHub回到github观看。
 
 因为我入门看的教程基本都在github，众所周知不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，选一个能用的先爬梯子https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界VPN，因为经常用，每次都直接买3年套餐，目前用了4年还没跑路，感觉价格还行，新注册好像也是有赠送的），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，还是需要买个稳定的VPN用。
 
@@ -48,14 +48,28 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 。
 
-。
+（嫌麻烦后面可以略过，到这里也能使用了）
 
 。
 
-为了追求稳定还可以使用CDN加速GitHub Pages的访问（嫌麻烦可以略过，到这里也能使用了）。我参考的教程https://blog.csdn.net/qq_39432978/article/details/141203664?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-2-141203664-blog-129872749.235^v43^pc_blog_bottom_relevance_base5&spm=1001.2101.3001.4242.2&utm_relevant_index=5，
+为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub Pages是国外网站，加载速度和稳定性都不是很可靠。我参考的教程https://blog.csdn.net/qq_39432978/article/details/141203664?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-2-141203664-blog-129872749.235^v43^pc_blog_bottom_relevance_base5&spm=1001.2101.3001.4242.2&utm_relevant_index=5，
 
+简单转述教程，先注册一个域名（我15买的一年期域名，购买网站https://www.godaddy.com/zh-sg ），然后注册cloudflare账号https://www.cloudflare.com/zh-cn/ ，之后按照cloudflare的提示一步一步操作，在域名注册商的DNS管理台添加cloudflare提示的域名服务器，添加成功后如图所示
+![image](https://github.com/user-attachments/assets/bc74c9c8-9a8c-4545-a268-df7c4b8427bb)
 
+然后回到cloudflare中管理DNS，添加一条CNAME记录，将自定义域名指向 GitHub Pages 提供的地址（例如 cuixu1992.github.io）
+![image](https://github.com/user-attachments/assets/6be21535-1847-4bca-9671-f50de06499ec)
 
+回到github pages设置中，添加自定义域，例如我的gitpages.cuixu1992.xyz，
+![image](https://github.com/user-attachments/assets/3693cb77-818a-41b8-b232-e714743c6249)
+
+现在就可以用自定义域来加载点播源或直播源了，例如，
+
+直播源https://gitpages.cuixu1992.xyz/tv.m3u ，
+
+点播仓库源https://gitpages.cuixu1992.xyz/storehouse.json ，
+
+声明：
 
 所有以任何方式查看本仓库内容的人、或直接或间接使用本仓库内容的使用者都应仔细阅读此声明。本仓库管理者保留随时更改或补充此免责声明的权利。一旦使用、复制、修改了本仓库内容，则视为您已接受此免责声明。
 

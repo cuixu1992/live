@@ -59,7 +59,25 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 。
 
-为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub Pages是国外网站，加载速度和稳定性都不是很可靠。我参考的教程https://blog.csdn.net/qq_39432978/article/details/141203664?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-2-141203664-blog-129872749.235^v43^pc_blog_bottom_relevance_base5&spm=1001.2101.3001.4242.2&utm_relevant_index=5，
+为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub Pages是国外网站，加载速度和稳定性都不是很可靠。
+
+什么是CDN？
+
+想象一下你在网上购物，找到了一件很喜欢的商品，但卖家在世界的另一端。商品需要经过漫长的运输，才能到达你的手中。这个过程可能需要几天甚至几周。可如果这个商品在你附近的仓库里有存货，那么你就可以很快地拿到它。这就是 CDN 的工作原理。（这不就是京东的库存管理模式嘛。。。）CDN，全称 Content Delivery Network（内容分发网络），就像是一个全球化的仓库网络，它会把你网站的内容（比如图片、视频、网页文件）存放在离用户最近的服务器上。这样，当有人访问你的网站时，内容就会从最近的服务器发送到他们的设备上，而不是从一个遥远的服务器那里传输过来。
+
+CDN的好处。
+
+加速访问速度： 无论用户在哪个国家或地区，CDN 都会让他们从最近的服务器获取内容，减少等待时间。
+
+提升网站稳定性： 如果某个服务器出现故障，CDN 会自动从其他服务器提供内容，不会影响用户的访问体验。
+
+减少带宽消耗： 因为 CDN 服务器会缓存内容，减少了对源服务器的请求次数，从而降低了服务器的负担和带宽使用。
+
+提高安全性： CDN 可以帮助抵御恶意攻击，比如分布式拒绝服务（DDoS）攻击，因为它能把流量分散到多个服务器，防止某个服务器因流量过大而崩溃。
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+CDN加速GitHub Pages访问教程原文链接：https://blog.csdn.net/qq_39432978/article/details/141203664 
 
 简单转述教程，先注册一个域名（我花15元买的一年期域名，购买网站https://www.godaddy.com/zh-sg ），然后注册cloudflare账号https://www.cloudflare.com/zh-cn/ ，之后按照cloudflare的提示一步一步操作，在域名注册商的DNS管理台添加cloudflare提示的域名服务器，添加成功后如图所示
 ![image](https://github.com/user-attachments/assets/bc74c9c8-9a8c-4545-a268-df7c4b8427bb)

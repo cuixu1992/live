@@ -20,7 +20,7 @@ vbskycn ：https://github.com/vbskycn/iptv
 最后一个仓库vbskycn为自动更新直播源，我好奇他是怎么自动更新的，发现了下面要讲的大佬，Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。（下载位置如下图，我怕有人找不到~~）软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通ipv6可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340，很详细哈。
 ![1](https://github.com/user-attachments/assets/dc7a3edc-9110-49b5-bba0-fe05f8fa6ad5)
 
-m3u文件与txt文件简单介绍，先是m3u，m3u内容丰富，但是不支持多源，
+m3u文件与txt文件简单介绍，先是m3u，m3u内容丰富，但是不支持多源（同一频道放多个链接并不会显示为切换源，而是同时显示为多个相同的频道）
 ![2](https://github.com/user-attachments/assets/9026a76a-2707-4212-b294-96b92bd982d0)
 
 然后是txt，内容简单，但支持多源，

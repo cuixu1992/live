@@ -7,7 +7,7 @@
 
 正式开始动工！在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
 
-直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv.m3u ，或https://cuixu1992.github.io/live/tv_test.txt
+直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv.m3u ，或https://cuixu1992.github.io/live/tv_ipv6.txt
 
 饭明明：https://github.com/fanmingming/live 
 
@@ -44,7 +44,7 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 分辨率识别插件ffmpeg安装教程https://blog.csdn.net/csdn_yudong/article/details/129182648 ，
 
-比如我用该软件按照自定义demo模板每个台选5个ipv6的源，然后放到github仓库内的tv_test.txt，用软件调用tv_test.txt测试，然后每个台选出1个好用的链接放入tv.m3u，这样就保证了最简洁的直播源获取。为什么我搞的这么麻烦呢，因为我维护这一个源同时给多个设备在用，比如我家里的电视和投影仪，父母老人的电视，朋友家的电视，尤其是老人对电子产品的适应能力还是差一些的，对他们来说最简单的就是最好的！！我的tv源里面只有18个央视和除去港澳台的31个省级卫视，而且把老人常看的地方卫视放到了前面！这样调用链接不变，电视台的源挂了只要我在仓库内更新源，其他人不需要任何操作就可以继续看电视
+比如我用该软件按照自定义demo模板每个台选10个ipv6的源，然后放到github仓库内的tv_ipv6.txt，用软件调用tv_ipv6.txt测试，然后每个台选出1个好用的链接放入tv.m3u，这样就保证了最简洁的直播源获取。为什么我搞的这么麻烦呢，因为我维护这一个源同时给多个设备在用，比如我家里的电视和投影仪，父母老人的电视，朋友家的电视，尤其是老人对电子产品的适应能力还是差一些的，对他们来说最简单的就是最好的！！我的tv源里面只有18个央视和除去港澳台的31个省级卫视，而且把老人常看的地方卫视放到了前面！这样调用链接不变，电视台的源挂了只要我在仓库内更新源，其他人不需要任何操作就可以继续看电视。
 
 .
 
@@ -59,11 +59,11 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 ![image](https://github.com/user-attachments/assets/2ef54ea7-7429-494d-9cff-fa6d9c61b5b9)
 
-就模仿这种形式，新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/storehouse.json ，到这里基本功能就已经实现了。
+就模仿这种形式，新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/storehouse.json ，
 
 。
 
-嫌麻烦后面可以略过，到这里也能使用了。
+到这里基本功能就已经实现了，嫌麻烦后面可以略过，也能使用。
 
 。
 

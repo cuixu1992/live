@@ -20,6 +20,10 @@
                 <p>TV软件影视仓点播源与直播源分享。</p>
             </div>
         </section>
+        <section id="readme">
+        <h2>项目简介</h2>
+        <div id="markdown-content"></div>
+        </section>
         <section id="contact">
             <h2>GitHub主页</h2>
             <p>🔗 GitHub：<a href="https://github.com/cuixu1992">cuixu1992</a></p>
@@ -28,6 +32,22 @@
     <footer>
         <p>© 2025 cuixu. 保留所有权利。</p>
     </footer>
+
+    <!-- README.md -->
+    <script>
+    const repoOwner = 'cuixu1992';
+    const repoName = 'live';
+
+    fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/readme`, {
+        headers: { Accept: 'application/vnd.github.v3.raw' }
+    })
+        .then(response => response.text())
+        .then(md => {
+            const converter = new showdown.Converter();
+            document.getElementById('markdown-content').innerHTML = converter.makeHtml(md);
+        })
+        .catch(error => console.error('无法加载 README.md', error));
+    </script>
 
     <!-- 动态背景脚本 -->
     <script>

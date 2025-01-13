@@ -39,7 +39,7 @@
     const repoOwner = 'cuixu1992';
     const repoName = 'live';
 
-    fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/readme`, {
+    fetch(`https://github.com/cuixu1992/live/README.md`, {
         headers: { Accept: 'application/vnd.github.v3.raw' }
     })
         .then(response => response.text())

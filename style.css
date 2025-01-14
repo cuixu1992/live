@@ -18,7 +18,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     z-index: -1;
-    pointer-events: none;
+    pointer-events: none; /* 防止干扰点击 */
 }
 
 /* 页面内容 */
@@ -73,7 +73,69 @@ html, body {
     margin-bottom: 20px;
 }
 
-/* 底部 */
+/* README.md 解析区域 */
+#markdown-content {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* README.md 内的标题 */
+#markdown-content h1, 
+#markdown-content h2, 
+#markdown-content h3 {
+    color: #00d4ff;
+    margin-top: 20px;
+}
+
+/* README.md 内的段落 */
+#markdown-content p {
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* README.md 内的链接 */
+#markdown-content a {
+    color: #ff00d4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#markdown-content a:hover {
+    color: #00d4ff;
+    text-decoration: underline;
+}
+
+/* README.md 图片自适应 */
+#markdown-content img {
+    max-width: 100%; /* 让图片适应容器宽度 */
+    height: auto; /* 保持原始纵横比 */
+    display: block; /* 避免图片下面有空白间隙 */
+    margin: 10px auto; /* 居中 */
+    border-radius: 5px; /* 可选：让图片圆角 */
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2); /* 添加阴影 */
+}
+
+/* README.md 代码块 */
+#markdown-content pre {
+    background: #333;
+    color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* README.md 列表 */
+#markdown-content ul {
+    padding-left: 20px;
+}
+
+#markdown-content li {
+    margin-bottom: 5px;
+}
+
+/* 页脚 */
 footer {
     text-align: center;
     padding: 10px;

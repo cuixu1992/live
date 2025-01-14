@@ -109,7 +109,7 @@ html, body {
 
 /* README.md 图片自适应 */
 #markdown-content img {
-    max-width: 100%; /* 让图片适应容器宽度 */
+    max-width: 50%; /* 让图片适应容器宽度 */
     height: auto; /* 保持原始纵横比 */
     display: block; /* 避免图片下面有空白间隙 */
     margin: 10px auto; /* 居中 */

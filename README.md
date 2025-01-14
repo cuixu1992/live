@@ -16,7 +16,7 @@ ngo5：https://github.com/ngo5/IPTV ，该仓库提供了很多相关链接
 
 vbskycn ：https://github.com/vbskycn/iptv 
 
-最后一个仓库vbskycn为自动更新直播源，我好奇他是怎么自动更新的，发现了下面要讲的大佬，Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。（下载位置如下图，我怕有人找不到~~）软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通ipv6可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340 ，很详细哈。
+Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。（下载位置如下图，我怕有人找不到~~）软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通ipv6可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340 ，很详细哈。
 ![1](https://github.com/user-attachments/assets/dc7a3edc-9110-49b5-bba0-fe05f8fa6ad5)
 
 m3u文件与txt文件简单介绍，m3u内容丰富，但是不支持多源（同一频道放多个链接并不会显示为切换源，而是同时显示为多个相同的频道）
@@ -31,7 +31,7 @@ txt内容简单，但支持多源，
 
 影视仓下载，wx搜派大星开发。推荐一个下载地址，同步更新很快，https://wmdz.com/tvboxC1.html ，（个人感觉5.0.44相对稳定）
 
-关于影视仓，tvbox，ok影视，猫影视等之间的关系，有张图交代的很清楚，来源https://github.com/ngo5/IPTV ，
+关于影视仓，tvbox，ok影视，猫影视等之间的关系，下面这张图交代的很清楚 ，
 ![image](https://github.com/user-attachments/assets/984161dc-a4f1-406a-8704-bf9b1f585f83)
 
 
@@ -43,22 +43,18 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 分辨率识别插件ffmpeg安装教程https://blog.csdn.net/csdn_yudong/article/details/129182648 ，
 
-比如我用该软件按照自定义demo模板每个台选10个ipv6的源，然后放到github仓库内的tv_ipv6.txt，用软件调用tv_ipv6.txt测试，然后每个台选出1个好用的链接放入tv.m3u，这样就保证了最简洁的直播源获取。为什么我搞的这么麻烦呢，因为我维护这一个源同时给多个设备在用，比如我家里的电视和投影仪，父母老人的电视，朋友家的电视，尤其是老人对电子产品的适应能力还是差一些的，对他们来说最简单的就是最好的！！我的tv源里面只有18个央视和除去港澳台的31个省级卫视，而且把老人常看的地方卫视放到了前面！这样调用链接不变，电视台的源挂了只要我在仓库内更新源，其他人不需要任何操作就可以继续看电视。
+比如我用该软件按照自定义demo模板每个台选10个ipv6的源，然后放到github仓库内的tv_ipv6.txt，用软件调用tv_ipv6.txt测试，然后每个台选出1个好用的链接放入tv.m3u，这样就保证了最简洁的直播源获取。因为我维护这一个源同时给多个设备在用，比如我家里的电视和投影仪，父母老人的电视，朋友家的电视，尤其是老人对电子产品的适应能力还是差一些的，对他们来说最简单的就是最好的！！我的tv源里面只有18个央视和除去港澳台的31个省级卫视，而且把老人常看的地方卫视放到了前面！这样调用链接不变，电视台的源挂了只要我在仓库内更新源，其他人不需要任何操作就可以继续看电视。
 
-.
+。
 
 下面的点播源适用于影视仓，下载链接在上文。
 
-.
+。
 
-直播源搞定开始折腾点播源，开始只自己搞了直播源，因为是刚需嘛~~后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有10个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
+直播源搞定开始折腾点播源，开始只自己搞了直播源，后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有几个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
 ![image](https://github.com/user-attachments/assets/51b3aeb2-7ef3-4e9e-94da-0d0973df4562)
 
-但是这样调用完仓库没有名字~开始想研究内容格式看看怎么加上仓库名字来着，后来发现无邪多仓的形式https://gitee.com/wxej/wxrj/raw/master/wx.json
-
-![image](https://github.com/user-attachments/assets/2ef54ea7-7429-494d-9cff-fa6d9c61b5b9)
-
-就模仿这种形式，新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/storehouse.json ，
+但是这样调用完仓库没有名字，需要手动输入~于是新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/storehouse.json ，
 
 。
 
@@ -81,12 +77,10 @@ CDN的好处。
 减少带宽消耗： 因为 CDN 服务器会缓存内容，减少了对源服务器的请求次数，从而降低了服务器的负担和带宽使用。
 
 提高安全性： CDN 可以帮助抵御恶意攻击，比如分布式拒绝服务（DDoS）攻击，因为它能把流量分散到多个服务器，防止某个服务器因流量过大而崩溃。
-
-                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
                         
 CDN加速GitHub Pages访问教程原文链接：https://blog.csdn.net/qq_39432978/article/details/141203664 
 
-简单转述教程，先注册一个域名（我花15元买的一年期域名，购买网站https://www.godaddy.com/zh-sg ），然后注册cloudflare账号https://www.cloudflare.com/zh-cn/ ，之后按照cloudflare的提示一步一步操作，在域名注册商的DNS管理台添加cloudflare提示的域名服务器，添加成功后如图所示
+简述流程，先注册一个域名（我花15元买的一年期域名，购买网站https://www.godaddy.com/zh-sg ），然后注册cloudflare账号https://www.cloudflare.com/zh-cn/ ，之后按照cloudflare的提示一步一步操作，在域名注册商的DNS管理台添加cloudflare提示的域名服务器，添加成功后如图所示
 ![image](https://github.com/user-attachments/assets/bc74c9c8-9a8c-4545-a268-df7c4b8427bb)
 
 然后回到cloudflare中管理DNS，添加一条CNAME记录，将自定义域名指向 GitHub Pages 提供的地址（例如 cuixu1992.github.io）

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const repoOwner = 'cuixu1992';
     const repoName = 'live';
 
-    fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/readme`, {
+    fetch(`https://api.github.com/repos/cuixu1992/live/readme`, {
         headers: { Accept: 'application/vnd.github.v3.raw' }
     })
         .then(response => {

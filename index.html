@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gitpages-cuixu1992</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 <body>
     <!-- 星空背景 -->
@@ -42,6 +43,21 @@
             <p>© 2025 cuixu1992. 保留所有权利。</p>
         </footer>
     </div>
+
+    <div id="gitalk-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <script>
+        var gitalk = new Gitalk({
+            clientID: 'YOUR_CLIENT_ID',
+            clientSecret: 'YOUR_CLIENT_SECRET',
+            repo: 'your-repo',
+            owner: 'your-username',
+            admin: ['your-username'],
+            id: location.pathname,
+            distractionFreeMode: false
+        });
+        gitalk.render('gitalk-container');
+    </script>
 
     <!-- 引入 JavaScript 文件 -->
     <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>

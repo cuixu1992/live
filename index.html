@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <canvas id="stars"></canvas>
+
     <div class="hero">
         <h1 class="title">欢迎</h1>
         <p class="subtitle">智能电视软件新手入门</p>
         <a href="#projects" class="cta">免费分享 用爱发电</a>
     </div>
+
     <main>
         <section id="projects">
             <h2>仓库</h2>
@@ -22,14 +25,14 @@
         </section>
         <section id="readme">
             <h2>入门教程</h2>
-            <div id="markdown-content">
-            </div>
+            <div id="markdown-content">加载中...</div>
         </section>
         <section id="contact">
             <h2>GitHub主页</h2>
             <p>🔗 GitHub：<a href="https://github.com/cuixu1992">cuixu1992</a></p>
         </section>
     </main>
+
     <footer>
         <p>© 2025 cuixu1992. 保留所有权利。</p>
     </footer>
@@ -37,18 +40,24 @@
     <!-- 动态加载README.md -->
     <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
     <script>
-    const repoOwner = 'cuixu1992';
-    const repoName = 'live';
+        const repoOwner = 'cuixu1992';
+        const repoName = 'live';
 
-    fetch('./README.md', {
-        headers: { Accept: 'application/vnd.github.v3.raw' }
-    })
-        .then(response => response.text())
-        .then(md => {
-            const converter = new showdown.Converter();
-            document.getElementById('markdown-content').innerHTML = converter.makeHtml(md);
+        fetch(`https://api.github.com/repos/cuixu1992/live/readme`, {
+            headers: { Accept: 'application/vnd.github.v3.raw' }
         })
-        .catch(error => console.error('无法加载 README.md', error));
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP 错误！状态码: ${response.status}`);
+                return response.text();
+            })
+            .then(md => {
+                const converter = new showdown.Converter();
+                document.getElementById('markdown-content').innerHTML = converter.makeHtml(md);
+            })
+            .catch(error => {
+                console.error('无法加载 README.md:', error);
+                document.getElementById('markdown-content').innerHTML = '<p>无法加载 README.md 内容。</p>';
+            });
     </script>
 
     <!-- 动态背景脚本 -->
@@ -77,6 +86,12 @@
             });
             requestAnimationFrame(animate);
         }
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+
         animate();
     </script>
 </body>

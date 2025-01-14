@@ -48,12 +48,12 @@
     <script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
     <script>
         var gitalk = new Gitalk({
-            clientID: 'YOUR_CLIENT_ID',
-            clientSecret: 'YOUR_CLIENT_SECRET',
-            repo: 'your-repo',
-            owner: 'your-username',
-            admin: ['your-username'],
-            id: location.pathname,
+            clientID: 'Ov23liiV6tYBNwEMN1hq',
+            clientSecret: '2150c9c3243ca24f356764a3b2e0d0da604b58f0',
+            repo: 'live',
+            owner: 'cuixu1992',
+            admin: ['cuixu1992'],
+            id: location.pathname.replace(/\/$/, '').slice(1) || 'home',
             distractionFreeMode: false
         });
         gitalk.render('gitalk-container');

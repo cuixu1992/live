@@ -1,10 +1,10 @@
 # 新手入门，利用github pages创建自己的直播源与点播源订阅链接
 
-本人也是小白刚入门！纯网络搜集教程的搬运工！所有资源均来自于各路大神无私分享（最后的声明也是copy的~），如有侵权，请联系删除！（写完发现在pages浏览效果不佳~~可以点击上边的TV资源回到github观看）
+本人也是小白刚入门！所有资源均来自于各路大神无私分享，如有侵权，请联系删除！
 
-因为我入门看的教程基本都在github，不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，随便选一个https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界，因为经常用，每次都直接买3年套餐，目前用了4年还没跑路，感觉价格还行，新注册好像也是有赠送的），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，还是需要买个稳定的VPN用。
+教程基本都在github，不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，随便选一个https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界，目前用了4年还没跑路，感觉价格还行，新注册好像也是有赠送的），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，还是需要买个稳定的VPN用。
 
-正式开始动工！在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。这里我是在大佬饭明明那里找到的教程https://github.com/fanmingming/live 。我简单转述一下。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
+正式开始动工！在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。先注册github账号，注册链接如下https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home ，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
 
 直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv.m3u ，或https://cuixu1992.github.io/live/tv_ipv6.txt
 

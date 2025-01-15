@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", function () {
         canvas.height = window.innerHeight;
 
         stars = [];
-        for (let i = 0; i < 120; i++) { // 星星数量
+        for (let i = 0; i < 100; i++) { // 星星数量
             stars.push({
                 x: Math.random() * canvas.width,
                 y: Math.random() * canvas.height,
                 size: Math.random() * 3 + 1,
                 opacity: Math.random() * 0.5 + 0.5, // 透明度范围
                 angle: Math.random() * Math.PI * 2,
-                flickerSpeed: Math.random() * 0.01 + 0.002, // ⭐闪烁速度
+                flickerSpeed: Math.random() * 0.01 + 0.001, // ⭐闪烁速度
                 flickerDirection: Math.random() > 0.5 ? 1 : -1
             });
         }
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createMeteor() {
-        if (Math.random() < 0.01) { // ⭐ 流星生成概率
+        if (Math.random() < 0.005) { // ⭐ 流星生成概率
             meteors.push({
                 x: Math.random() * canvas.width * 0.5,  
                 y: Math.random() * canvas.height * 0.5,
@@ -76,12 +76,12 @@ document.addEventListener("DOMContentLoaded", function () {
         stars.forEach(star => {
             star.opacity += star.flickerSpeed * star.flickerDirection;
 
-            // 让星星的透明度在 0.2 - 1 之间波动
+            // 让星星的透明度在 0.05 - 1 之间波动
             if (star.opacity >= 1) {
                 star.opacity = 1;
                 star.flickerDirection = -1; // 开始变暗
-            } else if (star.opacity <= 0.1) {
-                star.opacity = 0.1;
+            } else if (star.opacity <= 0.05) {
+                star.opacity = 0.05;
                 star.flickerDirection = 1; // 开始变亮
             }
 
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
             meteor.x += meteor.speed + meteor.curve;
             meteor.y += meteor.speed;
             meteor.opacity -= 0.01; // ⭐ 降低透明度消失速度，避免过快消失
-            meteor.size *= 0.98; // ⭐ 让流星更慢变小
+            meteor.size *= 0.95; // ⭐ 让流星更慢变小
             
             drawMeteor(meteor);
 

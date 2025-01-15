@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const canvas = document.getElementById('stars');
     const ctx = canvas.getContext('2d');
     let stars = [];
-    let meteors = []; // 存储流星
+    let meteors = [];
 
     function resizeCanvas() {
         canvas.width = window.innerWidth;
@@ -43,13 +43,15 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createMeteor() {
-        if (Math.random() < 0.08) { // 控制流星出现概率（8% 概率产生流星）
+        if (Math.random() < 0.03) { // 3% 概率生成流星
             meteors.push({
-                x: Math.random() * canvas.width * 0.5,  // 让流星从左半边出现
-                y: Math.random() * canvas.height * 0.5, // 让流星从上半边出现
-                speed: Math.random() * 8 + 4, // 速度快一些
-                length: Math.random() * 100 + 50, // 长度随机
-                opacity: 1 // 初始完全不透明
+                x: Math.random() * canvas.width * 0.5,  
+                y: Math.random() * canvas.height * 0.5,
+                speed: Math.random() * 8 + 4,
+                length: Math.random() * 100 + 50,
+                size: Math.random() * 4 + 2, // 初始大小
+                curve: (Math.random() - 0.5) * 0.2, // 让流星轨迹微微弯曲
+                opacity: 1
             });
         }
     }
@@ -58,9 +60,9 @@ document.addEventListener("DOMContentLoaded", function () {
         ctx.beginPath();
         let gradient = ctx.createLinearGradient(meteor.x, meteor.y, meteor.x + meteor.length, meteor.y + meteor.length);
         gradient.addColorStop(0, `rgba(255, 255, 255, ${meteor.opacity})`);
-        gradient.addColorStop(1, `rgba(255, 255, 255, 0)`); // 让流星尾巴逐渐消失
+        gradient.addColorStop(1, `rgba(255, 255, 255, 0)`); 
         ctx.strokeStyle = gradient;
-        ctx.lineWidth = 2;
+        ctx.lineWidth = meteor.size; // 让流星开始时较大，后面变细
         ctx.moveTo(meteor.x, meteor.y);
         ctx.lineTo(meteor.x + meteor.length, meteor.y + meteor.length);
         ctx.stroke();
@@ -90,13 +92,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // 更新并绘制流星
         meteors.forEach((meteor, index) => {
-            meteor.x += meteor.speed;
+            meteor.x += meteor.speed + meteor.curve; // 让流星轨迹稍微弯曲
             meteor.y += meteor.speed;
             meteor.opacity -= 0.02; // 让流星逐渐消失
+            meteor.size *= 0.98; // 让流星逐渐变小
+            
             drawMeteor(meteor);
 
             // 移除透明度完全消失的流星
-            if (meteor.opacity <= 0) {
+            if (meteor.opacity <= 0 || meteor.size < 0.5) {
                 meteors.splice(index, 1);
             }
         });

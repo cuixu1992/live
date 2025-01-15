@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createMeteor() {
-        if (Math.random() < 0.02) { // 控制流星出现概率（2% 概率产生流星）
+        if (Math.random() < 0.08) { // 控制流星出现概率（8% 概率产生流星）
             meteors.push({
                 x: Math.random() * canvas.width * 0.5,  // 让流星从左半边出现
                 y: Math.random() * canvas.height * 0.5, // 让流星从上半边出现

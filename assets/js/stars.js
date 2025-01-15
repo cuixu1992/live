@@ -44,13 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createMeteor() {
-        if (Math.random() < 0.005) { // ⭐ 流星生成概率
+        if (Math.random() < 0.008) { // ⭐ 流星生成概率
             meteors.push({
                 x: Math.random() * canvas.width * 0.5,  
                 y: Math.random() * canvas.height * 0.5,
                 speed: Math.random() * 4 + 2, // ⭐ 流星速度
-                length: Math.random() * 100 + 50,
-                size: Math.random() * 4 + 2,
+                length: Math.random() * 100 + 50, // 控制流星尾巴的长度
+                size: Math.random() * 6 + 3, //流星的初始大小
                 curve: (Math.random() - 0.5) * 0.1, // ⭐ 流星弧线
                 opacity: 1
             });

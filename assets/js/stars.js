@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function resizeCanvas() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
-    
+
         // 重新生成 stars 数组
         stars = [];
         for (let i = 0; i < 300; i++) {
@@ -16,36 +16,30 @@ document.addEventListener("DOMContentLoaded", function () {
                 size: Math.random() * 3 + 1,
                 speed: Math.random() * 0.5 + 0.2,
                 opacity: Math.random() * 0.5 + 0.5, // 让星星有不同的透明度
-                angle: Math.random() * 360 // 让星星有不同的旋转角度
+                angle: Math.random() * Math.PI * 2 // 让星星有不同的旋转角度
             });
         }
     }
 
-    function drawStar(cx, cy, spikes, outerRadius, innerRadius, angle, opacity) {
-        let rot = (Math.PI / 2) * 3;
-        let x = cx;
-        let y = cy;
-        let step = Math.PI / spikes;
-
+    function drawStar(cx, cy, spikes, outerRadius, innerRadius, rotation, opacity) {
+        ctx.save();
+        ctx.translate(cx, cy);
+        ctx.rotate(rotation);
         ctx.beginPath();
-        ctx.moveTo(cx, cy - outerRadius);
+        let step = Math.PI / spikes;
+        let angle = -Math.PI / 2; // 五角星起点朝上
+        ctx.moveTo(Math.cos(angle) * outerRadius, Math.sin(angle) * outerRadius);
+        
         for (let i = 0; i < spikes; i++) {
-            x = cx + Math.cos(rot) * outerRadius;
-            y = cy + Math.sin(rot) * outerRadius;
-            ctx.lineTo(x, y);
-            rot += step;
-
-            x = cx + Math.cos(rot) * innerRadius;
-            y = cy + Math.sin(rot) * innerRadius;
-            ctx.lineTo(x, y);
-            rot += step;
+            angle += step;
+            ctx.lineTo(Math.cos(angle) * innerRadius, Math.sin(angle) * innerRadius);
+            angle += step;
+            ctx.lineTo(Math.cos(angle) * outerRadius, Math.sin(angle) * outerRadius);
         }
-        ctx.lineTo(cx, cy - outerRadius);
         ctx.closePath();
         ctx.fillStyle = `rgba(255, 255, 255, ${opacity})`;
-        ctx.shadowBlur = 8;
-        ctx.shadowColor = 'white';
         ctx.fill();
+        ctx.restore();
     }
 
     function animate() {
@@ -63,8 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
             if (star.opacity < 0.3) star.opacity = 0.3;
             if (star.opacity > 1) star.opacity = 1;
 
-            // 画星星
-            drawStar(star.x, star.y, 5, star.size * 1.5, star.size * 0.5, star.angle, star.opacity);
+            // 画五角星
+            drawStar(star.x, star.y, 5, star.size * 2, star.size * 0.8, star.angle, star.opacity);
         });
 
         requestAnimationFrame(animate);

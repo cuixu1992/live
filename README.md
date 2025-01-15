@@ -6,7 +6,7 @@
 
 正式开始动工！在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。先注册github账号，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
 
-直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv.m3u ，或https://cuixu1992.github.io/live/tv_ipv6.txt
+直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv/tv.m3u ，或https://cuixu1992.github.io/live/tv/tv_ipv6.txt
 
 饭明明：https://github.com/fanmingming/live 
 
@@ -51,7 +51,7 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 。
 
-直播源搞定开始折腾点播源，开始只自己搞了直播源，后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有几个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/source.json ，
+直播源搞定开始折腾点播源，开始只自己搞了直播源，后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有几个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/tv/source.json ，
 ![image](https://github.com/user-attachments/assets/51b3aeb2-7ef3-4e9e-94da-0d0973df4562)
 
 但是这样调用完仓库没有名字，需要手动输入~于是新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/storehouse.json ，
@@ -91,9 +91,9 @@ CDN加速GitHub Pages访问教程原文链接：https://blog.csdn.net/qq_3943297
 
 现在就可以用自定义域来加载点播源或直播源了，例如，
 
-直播源https://gitpages.cuixu1992.xyz/tv.m3u ，
+直播源https://gitpages.cuixu1992.xyz/tv/tv.m3u ，
 
-点播仓库源https://gitpages.cuixu1992.xyz/storehouse.json ，
+点播仓库源https://gitpages.cuixu1992.xyz/tv/storehouse.json ，
 
 声明：
 

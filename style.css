@@ -17,7 +17,7 @@ html, body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 0;
+    z-index: 1;
     pointer-events: none; /* 防止干扰点击 */
 }
 

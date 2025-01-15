@@ -9,12 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
         canvas.height = window.innerHeight;
 
         stars = [];
-        for (let i = 0; i < 300; i++) {
+        for (let i = 0; i < 150; i++) { // 💡 降低星星数量到 150
             stars.push({
                 x: Math.random() * canvas.width,
                 y: Math.random() * canvas.height,
                 size: Math.random() * 3 + 1,
-                speed: Math.random() * 0.5 + 0.2,
                 opacity: Math.random() * 0.5 + 0.5,
                 angle: Math.random() * Math.PI * 2
             });
@@ -43,14 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createMeteor() {
-        if (Math.random() < 0.03) { // 3% 概率生成流星
+        if (Math.random() < 0.03) {
             meteors.push({
                 x: Math.random() * canvas.width * 0.5,  
                 y: Math.random() * canvas.height * 0.5,
                 speed: Math.random() * 8 + 4,
                 length: Math.random() * 100 + 50,
-                size: Math.random() * 4 + 2, // 初始大小
-                curve: (Math.random() - 0.5) * 0.2, // 让流星轨迹微微弯曲
+                size: Math.random() * 4 + 2,
+                curve: (Math.random() - 0.5) * 0.2,
                 opacity: 1
             });
         }
@@ -62,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         gradient.addColorStop(0, `rgba(255, 255, 255, ${meteor.opacity})`);
         gradient.addColorStop(1, `rgba(255, 255, 255, 0)`); 
         ctx.strokeStyle = gradient;
-        ctx.lineWidth = meteor.size; // 让流星开始时较大，后面变细
+        ctx.lineWidth = meteor.size;
         ctx.moveTo(meteor.x, meteor.y);
         ctx.lineTo(meteor.x + meteor.length, meteor.y + meteor.length);
         ctx.stroke();
@@ -71,15 +70,8 @@ document.addEventListener("DOMContentLoaded", function () {
     function animate() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        // 画普通星星
+        // ⭐ 背景星星不再移动，只是闪烁
         stars.forEach(star => {
-            star.y += star.speed;
-            if (star.y > canvas.height) {
-                star.y = 0;
-                star.x = Math.random() * canvas.width;
-            }
-
-            // 让星星闪烁
             star.opacity += (Math.random() - 0.5) * 0.05;
             if (star.opacity < 0.3) star.opacity = 0.3;
             if (star.opacity > 1) star.opacity = 1;
@@ -87,19 +79,16 @@ document.addEventListener("DOMContentLoaded", function () {
             drawStar(star.x, star.y, 5, star.size * 2, star.size * 0.8, star.angle, star.opacity);
         });
 
-        // 创建流星（偶尔出现）
         createMeteor();
 
-        // 更新并绘制流星
         meteors.forEach((meteor, index) => {
-            meteor.x += meteor.speed + meteor.curve; // 让流星轨迹稍微弯曲
+            meteor.x += meteor.speed + meteor.curve;
             meteor.y += meteor.speed;
-            meteor.opacity -= 0.02; // 让流星逐渐消失
-            meteor.size *= 0.98; // 让流星逐渐变小
+            meteor.opacity -= 0.02;
+            meteor.size *= 0.98;
             
             drawMeteor(meteor);
 
-            // 移除透明度完全消失的流星
             if (meteor.opacity <= 0 || meteor.size < 0.5) {
                 meteors.splice(index, 1);
             }

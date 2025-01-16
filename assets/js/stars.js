@@ -44,14 +44,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createMeteor() {
-        if (Math.random() < 0.009) { // ⭐ 流星生成概率
+        if (Math.random() < 0.01) { // ⭐ 流星生成概率
             meteors.push({
-                x: -50, // 从画布左侧外生成
-                y: Math.random() * canvas.height, // 随机生成在画布任意高度
-                speed: Math.random() * 4 + 2, // 流星水平移动速度
-                length: Math.random() * 160 + 80, // 流星尾巴长度
-                size: Math.random() * 8 + 4, // 流星的宽度
-                curve: (Math.random() - 0.5) * 0.1, // 非常轻微的上下曲线
+                x: Math.random() * canvas.width * 0.2 - 50, // 左侧随机位置稍靠左
+                y: Math.random() * canvas.height * 0.3, // 从画布上部开始
+                speed: Math.random() * 6 + 3, // 较快的流星速度
+                angle: Math.random() * Math.PI / 6 + Math.PI / 6, // 控制倾斜角度
+                length: Math.random() * 150 + 100, // 流星尾巴长度
+                size: Math.random() * 5 + 3, // 流星宽度
                 opacity: 1 // 初始透明度
             });
         }
@@ -59,13 +59,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function drawMeteor(meteor) {
         ctx.beginPath();
-        let gradient = ctx.createLinearGradient(meteor.x, meteor.y, meteor.x + meteor.length, meteor.y + meteor.length);
-        gradient.addColorStop(0, `rgba(255, 255, 255, ${meteor.opacity})`);
-        gradient.addColorStop(1, `rgba(255, 255, 255, 0)`); 
+        let gradient = ctx.createLinearGradient(
+            meteor.x, meteor.y, 
+            meteor.x - meteor.length * Math.cos(meteor.angle), 
+            meteor.y - meteor.length * Math.sin(meteor.angle)
+        );
+        gradient.addColorStop(0, `rgba(255, 255, 255, ${meteor.opacity})`); // 明亮的流星头部
+        gradient.addColorStop(1, `rgba(255, 255, 255, 0)`); // 尾部逐渐透明
         ctx.strokeStyle = gradient;
         ctx.lineWidth = meteor.size;
         ctx.moveTo(meteor.x, meteor.y);
-        ctx.lineTo(meteor.x + meteor.length, meteor.y + meteor.length);
+        ctx.lineTo(
+            meteor.x - meteor.length * Math.cos(meteor.angle), 
+            meteor.y - meteor.length * Math.sin(meteor.angle)
+        );
         ctx.stroke();
     }
 
@@ -90,17 +97,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         createMeteor();
 
-        // ⭐ 修复流星消失的问题
+        // ⭐ 流星逻辑
         meteors.forEach((meteor, index) => {
-            meteor.x += meteor.speed; // 水平移动
-            meteor.y += meteor.curve; // 垂直方向微调，保持轻微波动
-            meteor.opacity -= 0.01; // 逐渐消失
-            meteor.size *= 0.95; // 大小逐渐减小
-        
+            meteor.x += meteor.speed * Math.cos(meteor.angle);
+            meteor.y += meteor.speed * Math.sin(meteor.angle);
+            meteor.opacity -= 0.01; // 渐渐透明
+            meteor.size *= 0.98; // 尾部逐渐缩小
+            
             drawMeteor(meteor);
-        
-            // 移除完全不可见或移出画布右侧的流星
-            if (meteor.opacity <= 0 || meteor.size < 0.5 || meteor.x > canvas.width) {
+
+            // 移除完全离开画布或不可见的流星
+            if (meteor.x > canvas.width || meteor.y > canvas.height || meteor.opacity <= 0) {
                 meteors.splice(index, 1);
             }
         });

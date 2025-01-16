@@ -46,13 +46,13 @@ document.addEventListener("DOMContentLoaded", function () {
     function createMeteor() {
         if (Math.random() < 0.009) { // ⭐ 流星生成概率
             meteors.push({
-                x: -50, // 从画布外部左侧生成
-                y: Math.random() * canvas.height * 0.8, // 随机生成在画布顶部部分
-                speed: Math.random() * 4 + 2, // 流星水平速度
+                x: -50, // 从画布左侧外生成
+                y: Math.random() * canvas.height, // 随机生成在画布任意高度
+                speed: Math.random() * 4 + 2, // 流星水平移动速度
                 length: Math.random() * 160 + 80, // 流星尾巴长度
-                size: Math.random() * 8 + 4, // 流星大小
-                curve: (Math.random() - 0.5) * 2, // 控制流星的上下微调
-                opacity: 1
+                size: Math.random() * 8 + 4, // 流星的宽度
+                curve: (Math.random() - 0.5) * 0.1, // 非常轻微的上下曲线
+                opacity: 1 // 初始透明度
             });
         }
     }
@@ -92,14 +92,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // ⭐ 修复流星消失的问题
         meteors.forEach((meteor, index) => {
-            meteor.x += meteor.speed; // 仅沿水平方向移动
-            meteor.y += meteor.curve; // 垂直方向微调为曲线效果
-            meteor.opacity -= 0.01; // 透明度逐渐降低
+            meteor.x += meteor.speed; // 水平移动
+            meteor.y += meteor.curve; // 垂直方向微调，保持轻微波动
+            meteor.opacity -= 0.01; // 逐渐消失
             meteor.size *= 0.95; // 大小逐渐减小
-            
+        
             drawMeteor(meteor);
         
-            // 移除不可见的流星
+            // 移除完全不可见或移出画布右侧的流星
             if (meteor.opacity <= 0 || meteor.size < 0.5 || meteor.x > canvas.width) {
                 meteors.splice(index, 1);
             }

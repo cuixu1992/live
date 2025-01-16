@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 x: Math.random() * canvas.width * 0.5,  
                 y: Math.random() * canvas.height * 0.5,
                 speed: Math.random() * 4 + 2, // ⭐ 流星速度
-                length: Math.random() * 100 + 50, // 控制流星尾巴的长度
-                size: Math.random() * 10 + 5, //流星的初始大小
+                length: Math.random() * 160 + 80, // 控制流星尾巴的长度
+                size: Math.random() * 8 + 4, //流星的初始大小
                 curve: (Math.random() - 0.5) * 0.1, // ⭐ 流星弧线
                 opacity: 1
             });

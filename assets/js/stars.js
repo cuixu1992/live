@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 speed: Math.random() * 4 + 2, // ⭐ 流星速度
                 length: Math.random() * 160 + 80, // 控制流星尾巴的长度
                 size: Math.random() * 8 + 4, //流星的初始大小
-                curve: (Math.random() - 0.5) * 0.1, // ⭐ 流星弧线
+                curve: (Math.random() - 0.5) * 0.5, // ⭐ 流星弧线
                 opacity: 1
             });
         }
@@ -92,14 +92,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // ⭐ 修复流星消失的问题
         meteors.forEach((meteor, index) => {
-            meteor.x += meteor.speed + meteor.curve;
-            meteor.y += meteor.speed;
-            meteor.opacity -= 0.01; // ⭐ 降低透明度消失速度，避免过快消失
-            meteor.size *= 0.95; // ⭐ 让流星更慢变小
+            meteor.x += meteor.speed + meteor.curve; // 水平方向
+            meteor.y += meteor.speed * 0.5; // 垂直方向调整为速度的一部分
+            meteor.opacity -= 0.01; // 透明度
+            meteor.size *= 0.95; // 大小逐渐减小
             
             drawMeteor(meteor);
-
-            // 移除完全不可见的流星
+        
+            // 移除不可见流星
             if (meteor.opacity <= 0 || meteor.size < 0.5 || meteor.x > canvas.width || meteor.y > canvas.height) {
                 meteors.splice(index, 1);
             }

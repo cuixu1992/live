@@ -44,17 +44,29 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function createMeteor() {
-        if (Math.random() < 0.002) { // ⭐ 流星生成概率
+        if (Math.random() < 0.0001) { // ⭐ 流星生成概率
             meteors.push({
-                x: Math.random() * canvas.width,  
-                y: Math.random() * canvas.height,
+                x: Math.random() * canvas.width * 0.9 - 30,  
+                y: Math.random() * canvas.height * 0.9,
                 speed: Math.random() * 6 + 3, // 较快的流星速度
                 angle: Math.random() * Math.PI / 96 + Math.PI / 48, // 控制倾斜角度
-                length: Math.random() * 200 + 100, // 流星尾巴长度
+                length: Math.random() * 100 + 200, // 流星尾巴长度
                 size: Math.random() * 5 + 4, // 流星宽度
                 opacity: 1 // 初始透明度
             });
         }
+    }
+
+    function createMeteorAtRandomPosition() {
+        meteors.push({
+            x: Math.random() * canvas.width * 0.9 - 30, // 左侧随机位置稍靠左
+            y: Math.random() * canvas.height * 0.9, // 随机在画布上半部分生成
+            speed: Math.random() * 6 + 3, // 较快的流星速度
+            angle: Math.random() * Math.PI / 96 + Math.PI / 48, // 控制倾斜角度
+            length: Math.random() * 100 + 200, // 流星尾巴长度
+            size: Math.random() * 5 + 4, // 流星宽度
+            opacity: 1 // 初始透明度
+        });
     }
 
     function drawMeteor(meteor) {
@@ -96,6 +108,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         createMeteor();
+        canvas.addEventListener('mousedown', function (event) {
+            if (event.button === 0) { // 检查是否为左键点击
+                createMeteorAtRandomPosition();
+            }
+        });
 
         // ⭐ 流星逻辑
         meteors.forEach((meteor, index) => {

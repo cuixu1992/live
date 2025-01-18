@@ -1,6 +1,6 @@
 # 新手入门，利用github pages创建自己的直播源与点播源订阅链接
 
-本人也是小白刚入门！所有资源均来自于各路大神无私分享，如有侵权，请联系删除！
+本人也是小白刚入门！所有资源均来自于各路大神无私分享，如有侵权，请联系删除！  
 gitpages主页：https://gitpages.cuixu1992.xyz
 
 教程基本都在github，不用梯子访问非常不稳定，所以第一步就是爬梯子（本着能用就行的原则，链接里有一堆注册临时赠送几天的梯子，随便选一个https://9.234456.xyz/abc.html?t=638712795645227885 ，我目前在用里面推荐的西部世界，用了4年还没跑路，感觉价格还行，新注册好像也是有赠送的），想长期爬梯子推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ），这个软件只是客户端，还是需要买个稳定的VPN用。
@@ -9,12 +9,9 @@ gitpages主页：https://gitpages.cuixu1992.xyz
 
 直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv/tv.m3u ，或https://cuixu1992.github.io/live/tv/tv_ipv6.txt
 
-饭明明：https://github.com/fanmingming/live 
-
-zhumeng11：https://github.com/zhumeng11/IPTV 
-
-ngo5：https://github.com/ngo5/IPTV ，该仓库提供了很多相关链接
-
+饭明明：https://github.com/fanmingming/live  
+zhumeng11：https://github.com/zhumeng11/IPTV  
+ngo5：https://github.com/ngo5/IPTV ，该仓库提供了很多相关链接  
 vbskycn ：https://github.com/vbskycn/iptv 
 
 ②自动获取，Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，我没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。（GUI软件下载位置如下图，我怕有人找不到~）软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通ipv6可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340 ，很详细哈。
@@ -71,13 +68,10 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 CDN的好处。
 
-加速访问速度： 无论用户在哪个国家或地区，CDN 都会让他们从最近的服务器获取内容，减少等待时间。
-
-提升网站稳定性： 如果某个服务器出现故障，CDN 会自动从其他服务器提供内容，不会影响用户的访问体验。
-
-减少带宽消耗： 因为 CDN 服务器会缓存内容，减少了对源服务器的请求次数，从而降低了服务器的负担和带宽使用。
-
-提高安全性： CDN 可以帮助抵御恶意攻击，比如分布式拒绝服务（DDoS）攻击，因为它能把流量分散到多个服务器，防止某个服务器因流量过大而崩溃。
+加速访问速度： 无论用户在哪个国家或地区，CDN都会让他们从最近的服务器获取内容，减少等待时间；  
+提升网站稳定性： 如果某个服务器出现故障，CDN会自动从其他服务器提供内容，不会影响用户的访问体验；  
+减少带宽消耗： 因为CDN服务器会缓存内容，减少了对源服务器的请求次数，从而降低了服务器的负担和带宽使用；  
+提高安全性：CDN可以帮助抵御恶意攻击，比如DDoS攻击，因为它能把流量分散到多个服务器，防止某个服务器因流量过大而崩溃。
                         
 CDN加速GitHub Pages访问教程原文链接：https://blog.csdn.net/qq_39432978/article/details/141203664 
 
@@ -92,8 +86,7 @@ CDN加速GitHub Pages访问教程原文链接：https://blog.csdn.net/qq_3943297
 
 现在就可以用自定义域来加载点播源或直播源了，例如，
 
-直播源https://gitpages.cuixu1992.xyz/tv/tv.m3u ，
-
+直播源https://gitpages.cuixu1992.xyz/tv/tv.m3u ，  
 点播仓库源https://gitpages.cuixu1992.xyz/tv/storehouse.json ，
 
 声明：

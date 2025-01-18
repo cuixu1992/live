@@ -27,7 +27,7 @@ txt内容简单，但支持多源，
 
 我的电视下载，推荐下载地址https://wmdz.com/tv.html ，最新版本2.2.7,找半天没找到github仓库,最后发现作者把github仓库关了。（我的电视与mytv的关系：由于mytv原作者李宗英不再继续开发https://github.com/lizongying/my-tv ，我的电视是另一个人在原mytv开源项目基础上继续开发的https://github.com/yaoxieyoulei 。mytv原作者李宗英最近又继续开发了我的电视·〇 https://github.com/lizongying/my-tv-0?tab=readme-ov-file#%E6%88%91%E7%9A%84%E9%9B%BB%E8%A6%96%E3%80%87 ，）
 
-影视仓下载，wx搜派大星开发。推荐一个下载地址，同步更新很快，https://wmdz.com/tvboxC1.html ，（个人感觉5.0.44相对稳定）
+影视仓下载，wx搜派大星开发。推荐下载地址（同步更新很快，个人感觉5.0.44相对稳定）https://wmdz.com/tvboxC1.html 
 
 关于影视仓，tvbox，ok影视，猫影视等之间的关系，下面这张图交代的很清楚 ，
 ![image](https://github.com/user-attachments/assets/984161dc-a4f1-406a-8704-bf9b1f585f83)

@@ -45,14 +45,17 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 。
 
-下面的点播源适用于影视仓，对于点播源一条订阅链接可以包含多仓，每个仓库又可以包含多线，而每条线路又包含多个站点的资源，简单说仓库>线路>站点。所以搜索视频时，某个站点不可用先切换站点，整条线路的站点都不可用再尝试切换线路，切换仓库基本
+下面讲的点播源适用于影视仓
 
 。
 
 直播源搞定开始折腾点播源，开始只自己搞了直播源，后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有几个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/tv/source.json ，
 ![image](https://github.com/user-attachments/assets/51b3aeb2-7ef3-4e9e-94da-0d0973df4562)
 
-但是这样调用完仓库没有名字，需要手动输入~于是新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/tv/storehouse.json ，
+但是这样调用完仓库没有名字，需要手动输入~于是新建了个storehouse.json文件，在里面自定义仓库名并调用source.json文件，这样再调用storehouse.json文件时，就直接有仓库名了，调用方式https://cuixu1992.github.io/live/tv/storehouse.json 
+
+对于点播源一个仓库包含多条线路，而每条线路又包含多个站点的资源。所以搜索视频时，某个站点不可用先切换站点，整条线路的站点都不可用再尝试切换线路。网盘资源需要自己注册对应网盘账号扫码登录使用。
+
 
 。
 

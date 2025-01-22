@@ -27,7 +27,7 @@ txt内容简单，但支持多源，
 
 推荐几个电视直播壳，aptv（苹果全平台，商店下载）、天光云影（安卓系统）、影视仓（安卓系统）。
 
-天光云影，推荐下载地址https://wmdz.com/tv.html ，官方发布在小飞机，需翻墙https://t.me/mytv_android_release  
+天光云影，推荐下载地址https://wmdz.com/tv.html ，官方发布在小飞机，需翻墙https://t.me/mytv_android  
 （天光云影基于mytv继续开发，原作者李宗英https://github.com/lizongying/my-tv ）  
 影视仓，推荐下载地址https://wmdz.com/tvboxC1.html ，官方发布在微信公众号，派大星开发。
 

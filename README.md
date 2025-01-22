@@ -4,7 +4,11 @@
 
 优质的白嫖资源基本都在墙外，所以第一步就是翻墙（链接里有一堆注册临时赠送几天的梯子，随便选一个https://9.234456.xyz/abc.html?t=638712795645227885 ），想长期翻墙推荐github开源项目v2rayN（https://github.com/2dust/v2rayN/releases/tag/7.4.2 ，这个软件只是客户端，还是需要买个稳定的VPN用）
 
+## 1.开启GitHub Pages
+
 正式开始动工！在github建立自己的仓库，并开启pages。仓库存放自己用的文件，pages提供访问链接。先注册github账号，然后参照官方帮助文档建立仓库，并开启pages，https://docs.github.com/zh/enterprise-cloud@latest/pages/quickstart ，成功开启pages后相当于有了一个自己的小型服务器，通过github pages链接能访问自己仓库内的直播源或点播源文件。
+
+## 2.创建直播源
 
 直播源文件获取方式，①简单粗暴，去大佬的仓库下载，放到自己的仓库，提供几个大佬仓库的链接（一般在tv文件夹下），文件格式为.m3u或.txt。放到自己的仓库后调用链接就是自己的pages链接加上文件路径和名称，例如我仓库内的调用链接为https://cuixu1992.github.io/live/tv/tv.m3u ，或https://cuixu1992.github.io/live/tv/tv_ipv6.txt
 
@@ -27,10 +31,6 @@ txt内容简单，但支持多源，
 （天光云影基于mytv继续开发，原作者李宗英https://github.com/lizongying/my-tv ）  
 影视仓，推荐下载地址https://wmdz.com/tvboxC1.html ，官方发布在微信公众号，派大星开发。
 
-关于影视仓，tvbox，ok影视，猫影视等之间的关系，下面这张图交代的很清楚 ，
-![image](https://github.com/user-attachments/assets/984161dc-a4f1-406a-8704-bf9b1f585f83)
-
-
 上面提到的GUI软件，软件运行一次会自动生成两个文件夹，
 ![4](https://github.com/user-attachments/assets/d6c024d5-f38d-40c1-8235-ca5a34c2db7c)
 
@@ -39,11 +39,10 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 比如我用该软件按照自定义demo模板每个台选10个ipv6的源，然后放到github仓库内的tv\_ipv6.txt，用软件调用tv\_ipv6.txt测试，然后每个台选出1个好用的链接放入tv.m3u，这样就保证了最简洁的直播源获取。因为我维护这一个源同时给多个设备在用，比如我家里的电视和投影仪，父母的电视，朋友的电视，尤其是老人对电子产品的适应能力还是差一些的，对他们来说最简单的就是最好的，所以我的tv源里面只有18个央视和除去港澳台的31个省级卫视，而且把老人常看的地方卫视放到了前面！调用链接不变，电视台的源挂了只要我在仓库内更新源，其他人不需要任何操作就可以继续看电视。
 
-。
+## 3.创建点播源
 
-下面讲的点播源适用于影视仓
-
-。
+下面讲的点播源适用于影视仓，关于影视仓，tvbox，ok影视，猫影视等之间的关系，下面这张图交代的很清楚 ，
+![image](https://github.com/user-attachments/assets/984161dc-a4f1-406a-8704-bf9b1f585f83)
 
 直播源搞定开始折腾点播源，开始只自己搞了直播源，后来看到高天流云的仓库意识到好像自己搞点播源也很容易https://github.com/gaotianliuyun/gao ，我只是搞到了自定义仓库和多线，单线内容懒得搞了，直接用各路大神的，某个大神的线路挂了就先用其他大神的，等大神线路恢复了再用新的线路链接替换就好了。（其实有几个常用的出名大神的线路足够了，多了都是放在后面吃灰的~）参考高天流云0707.json文件创建了我仓库内的source.json文件，调用方式和直播源一样https://cuixu1992.github.io/live/tv/source.json ，
 ![image](https://github.com/user-attachments/assets/51b3aeb2-7ef3-4e9e-94da-0d0973df4562)
@@ -52,12 +51,9 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 对于点播源一个仓库包含多条线路，而每条线路又包含多个站点的资源。所以搜索视频时，某个站点不可用先切换站点，整条线路的站点都不可用再尝试切换线路。网盘资源需要自己注册对应网盘账号扫码登录使用。
 
-
-。
-
 到这里基本功能就已经实现了，嫌麻烦后面可以略过，也能使用。
 
-。
+
 
 为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub Pages是国外网站，加载速度和稳定性都不是很可靠。
 

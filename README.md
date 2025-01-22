@@ -55,7 +55,7 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 ## 4.CDN加速访问
 
-为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub Pages是国外网站，加载速度和稳定性都不是很可靠。
+为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub是国外网站，加载速度和稳定性都不是很可靠。
 
 什么是CDN？
 

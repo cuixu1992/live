@@ -82,8 +82,8 @@ CDN加速GitHub Pages访问教程原文链接：https://blog.csdn.net/qq_3943297
 
 现在就可以用自定义域来加载点播源或直播源了，例如，
 
-直播源https://gitpages.cuixu1992.xyz/tv/tv.m3u ，  
-点播仓库源https://gitpages.cuixu1992.xyz/tv/storehouse.json ，
+直播源 https://gitpages.cuixu1992.xyz/tv/tv.m3u ，  
+点播仓库源 https://gitpages.cuixu1992.xyz/tv/storehouse.json ，
 
 因为我维护这一个源同时给多个设备在用，比如家里的电视和投影仪，父母的电视，朋友的电视、手机等！这样调用链接不变，源挂了只要我在仓库内更新源，设备上不需要任何操作就可以继续用。
 

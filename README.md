@@ -17,16 +17,16 @@ zhumeng11：https://github.com/zhumeng11/IPTV
 
 ②自动获取，Guovin ：https://github.com/Guovin/iptv-api ，里面有自动更新的教程，我没爱折腾，下载了GUI软件，等自己仓库的链接挂了以后手动获取直播源。软件支持自定义设置，ipv4和ipv6都可以，有ipv6是最好的，怎么开通ipv6可以看老网编的教程https://zhuanlan.zhihu.com/p/6282754340 ，很详细哈。
 
-m3u文件与txt文件简单介绍，m3u内容丰富，但是不支持多源（同一频道放多个链接并不会显示为切换源，而是同时显示为多个相同的频道）
+关于m3u文件与txt文件的区别，m3u内容丰富，但是不支持多源（同一频道放多个链接并不会显示为切换源，而是同时显示为多个相同的频道）
 ![2](https://github.com/user-attachments/assets/9026a76a-2707-4212-b294-96b92bd982d0)
 
 txt内容简单，但支持多源，
 ![3](https://github.com/user-attachments/assets/0f726aad-fb88-4ed0-aa49-6e3aea6eb68a)
 
-推荐几个电视直播壳，aptv（苹果全平台，商店下载）、天光云影（安卓系统）、影视仓（安卓系统）。
+推荐几个电视直播壳，aptv（苹果全平台，商店免费下载）、天光云影（安卓系统）、影视仓（安卓系统）。
 
 天光云影，推荐下载地址https://wmdz.com/tv.html ，官方发布在小飞机，需翻墙https://t.me/mytv_android_release  
-（天光云影基于mytv继续开发，原作者李宗英https://github.com/lizongying/my-tv ）  
+（天光云影基于mytv继续开发，mytv原作者李宗英https://github.com/lizongying/my-tv ）  
 影视仓，推荐下载地址https://wmdz.com/tvboxC1.html ，官方发布在微信公众号，派大星开发。
 
 上面提到的GUI软件，软件运行一次会自动生成两个文件夹，
@@ -52,7 +52,7 @@ Config内有demo.txt可以按照喜欢的分组与顺序更改，名称最好按
 
 到这里基本功能就已经实现了，嫌麻烦后面可以略过，也能使用。
 
-## 4.CDN加速访问
+## 4.CDN加速访问（域名已过期，续费太贵没再用~）
 
 为了追求稳定还可以使用CDN加速GitHub Pages的访问，因为GitHub是国外网站，加载速度和稳定性都不是很可靠。
 

@@ -1,8 +1,12 @@
 {
     "urls": [
-        { "url": "http://www.饭太硬.com/tv", "name": "饭太硬" },
+        { "url": "http://fty.xxooo.cf/tv", "name": "饭太硬" },
         { "url": "https://xn--xhhx-rp5imh.v.nxog.top/apitv.php?id=7", "name": "欧歌" },
+        { "url": "http://ok213.top/tv", "name": "OK杰克" },
         { "url": "https://9280.kstore.space/aiwex.json", "name": "王二小" },
+        { "url": "http://mitvbox.xyz/%E5%B0%8F%E7%B1%B3/DEMO.json", "name": "小米" },
+        { "url": "http://cdn.qiaoji8.com/tvbox.json", "name": "巧计" },
+        { "url": "https://gh-proxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json", "name": "南风" },
         { "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer", "name": "兔小贝少儿" }
     ]
 }
